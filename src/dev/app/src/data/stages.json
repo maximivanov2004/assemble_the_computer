@@ -1,0 +1,180 @@
+[
+  {
+    "id": 0,
+    "icon": "./assets/icons/question_mark.png",
+    "steps": [
+      {
+        "id": 0,
+        "type": "task_selection",
+        "left_title": "Выберите одно из заданий:"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "icon": "./assets/icons/cpu.png",
+    "steps": [
+      {
+        "id": 0,
+        "type": "part_selection",
+        "left_title": "Выберите центральный процессор:",
+        "part_name": "processor"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "icon": "./assets/icons/motherboard.png",
+    "steps": [
+      {
+        "id": 0,
+        "type": "part_selection",
+        "left_title": "Выберите материнскую плату:",
+        "part_name": "motherboard"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "icon": "./assets/icons/computer_case.png",
+    "steps": [
+      {
+        "id": 0,
+        "type": "part_selection",
+        "left_title": "Выберите корпус:",
+        "part_name": "case"
+      },
+      {
+        "id": 1,
+        "type": "part_installation",
+        "left_title": "Установите материнскую плату:",
+        "part_name": "motherboard"
+      },
+      {
+        "id": 2,
+        "type": "part_installation",
+        "left_title": "Установите процессор:",
+        "part_name": "processor"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "icon": "./assets/icons/cooling_fan.png",
+    "steps": [
+      {
+        "id": 0,
+        "type": "part_selection",
+        "left_title": "Выберите охлаждение:",
+        "part_name": "cooling"
+      },
+      {
+        "id": 1,
+        "type": "part_installation",
+        "left_title": "Установите охлаждение:",
+        "part_name": "cooling"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "icon": "./assets/icons/ram_memory.png",
+    "steps": [
+      {
+        "id": 0,
+        "type": "part_selection",
+        "left_title": "Выберите оперативную память:",
+        "part_name": "ram"
+      },
+      {
+        "id": 1,
+        "type": "part_installation",
+        "left_title": "Установите оперативную память:",
+        "part_name": "ram"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "icon": "./assets/icons/video_card.png",
+    "steps": [
+      {
+        "id": 0,
+        "type": "part_selection",
+        "left_title": "Выберите видеокарту:",
+        "part_name": "video_card"
+      },
+      {
+        "id": 1,
+        "type": "part_installation",
+        "left_title": "Установите видеокарту:",
+        "part_name": "video_card"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "icon": "./assets/icons/harddisk.png",
+    "steps": [
+      {
+        "id": 0,
+        "type": "part_selection",
+        "left_title": "Выберите жесткий диск:",
+        "part_name": "hard_drive"
+      },
+      {
+        "id": 1,
+        "type": "part_installation",
+        "left_title": "Установите жесткий диск:",
+        "part_name": "hard_drive"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "icon": "./assets/icons/ssd.png",
+    "steps": [
+      {
+        "id": 0,
+        "type": "part_selection",
+        "left_title": "Выберите твердотельный накопитель:",
+        "part_name": "ssd"
+      },
+      {
+        "id": 1,
+        "type": "part_installation",
+        "left_title": "Установите твердотельный накопитель:",
+        "part_name": "ssd"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "icon": "./assets/icons/power.png",
+    "steps": [
+      {
+        "id": 0,
+        "type": "part_selection",
+        "left_title": "Выберите блок питания:",
+        "part_name": "power_supply"
+      },
+      {
+        "id": 1,
+        "type": "part_installation",
+        "left_title": "Установите блок питания:",
+        "part_name": "power_supply"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "icon": "./assets/icons/green_check_mark.png",
+    "steps": [
+      {
+        "id": 0,
+        "type": "result",
+        "left_title": "Результат:"
+      }
+    ]
+  }
+]

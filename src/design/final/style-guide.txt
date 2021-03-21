@@ -1,0 +1,20 @@
+color pallete:
+	main green - #94d637
+	light green - #a9f340
+	pale light green - #e8f7d2
+	dark green - #85bf34
+
+	red - #ec2525
+	pale red - #fee3e3
+	
+	yellow - #efe543
+	light yellow - #f5eb52
+	pale light yellow - #f7f4d2
+
+	light gray - #f7f7f7
+	gray - #ededed
+	dark gray - #e9e9e9
+	very dark gray - #333333
+fonts:
+	logo: Roboto Mono
+	main text: Rubik

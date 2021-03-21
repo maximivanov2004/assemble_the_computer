@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "title": "Сборка офисного компьютера",
+    "description": "description1",
+    "parts_group": 1
+  },
+  {
+    "id": 1,
+    "title": "Сборка игрового компьютера",
+    "description": "description2",
+    "parts_group": 2
+  },
+  {
+    "id": 2,
+    "title": "Сборка рабочей станции",
+    "description": "description3",
+    "parts_group": 3
+  },
+  {
+    "id": 3,
+    "title": "Сборка произвольного компьютера",
+    "description": "description4",
+    "parts_group": 0
+  }
+]

@@ -1,0 +1,720 @@
+{
+  "processor": [
+    {
+      "id": 0,
+      "name": "processor1",
+      "image": "https://place-hold.it/512x512&text=processor1&fontsize=35",
+      "characteristics": {
+        "processor1_k1": "processor1_v1",
+        "processor1_k2": "processor1_v2",
+        "processor1_k3": "processor1_v3",
+        "processor1_k4": "processor1_v4"
+      },
+      "price": 1000,
+      "group": 1,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/processor.jpg"
+    },
+    {
+      "id": 1,
+      "name": "processor2",
+      "image": "https://place-hold.it/512x512&text=processor2&fontsize=35",
+      "characteristics": {
+        "processor2_k1": "processor2_v1",
+        "processor2_k2": "processor2_v2",
+        "processor2_k3": "processor2_v3",
+        "processor2_k4": "processor2_v4"
+      },
+      "price": 2000,
+      "group": 1,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/processor.jpg"
+    },
+    {
+      "id": 2,
+      "name": "processor3",
+      "image": "https://place-hold.it/512x512&text=processor3&fontsize=35",
+      "characteristics": {
+        "processor3_k1": "processor3_v1",
+        "processor3_k2": "processor3_v2",
+        "processor3_k3": "processor3_v3",
+        "processor3_k4": "processor3_v4"
+      },
+      "price": 3000,
+      "group": 2,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/processor.jpg"
+    },
+    {
+      "id": 3,
+      "name": "processor4",
+      "image": "https://place-hold.it/512x512&text=processor4&fontsize=35",
+      "characteristics": {
+        "processor4_k1": "processor4_v1",
+        "processor4_k2": "processor4_v2",
+        "processor4_k3": "processor4_v3",
+        "processor4_k4": "processor4_v4"
+      },
+      "price": 4000,
+      "group": 2,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/processor.jpg"
+    }
+  ],
+  "motherboard": [
+    {
+      "id": 0,
+      "name": "motherboard1",
+      "image": "https://place-hold.it/512x512&text=motherboard1&fontsize=35",
+      "characteristics": {
+        "motherboard1_k1": "motherboard1_v1",
+        "motherboard1_k2": "motherboard1_v2",
+        "motherboard1_k3": "motherboard1_v3",
+        "motherboard1_k4": "motherboard1_v4"
+      },
+      "price": 1000,
+      "group": 1,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/motherboard.jpg",
+      "validation": {
+        "processor": {
+          "processor1_k1": ["processor1_v1"]
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "motherboard2",
+      "image": "https://place-hold.it/512x512&text=motherboard2&fontsize=35",
+      "characteristics": {
+        "motherboard2_k1": "motherboard2_v1",
+        "motherboard2_k2": "motherboard2_v2",
+        "motherboard2_k3": "motherboard2_v3",
+        "motherboard2_k4": "motherboard2_v4"
+      },
+      "price": 2000,
+      "group": 1,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/motherboard.jpg",
+      "validation": {
+        "processor": {
+          "processor2_k1": ["processor2_v1"]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "motherboard3",
+      "image": "https://place-hold.it/512x512&text=motherboard3&fontsize=35",
+      "characteristics": {
+        "motherboard3_k1": "motherboard3_v1",
+        "motherboard3_k2": "motherboard3_v2",
+        "motherboard3_k3": "motherboard3_v3",
+        "motherboard3_k4": "motherboard3_v4"
+      },
+      "price": 3000,
+      "group": 2,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/motherboard.jpg",
+      "validation": {
+        "processor": {
+          "processor3_k1": ["processor3_v1"]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "motherboard4",
+      "image": "https://place-hold.it/512x512&text=motherboard4&fontsize=35",
+      "characteristics": {
+        "motherboard4_k1": "motherboard4_v1",
+        "motherboard4_k2": "motherboard4_v2",
+        "motherboard4_k3": "motherboard4_v3",
+        "motherboard4_k4": "motherboard4_v4"
+      },
+      "price": 4000,
+      "group": 2,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/motherboard.jpg",
+      "validation": {
+        "processor": {
+          "processor4_k1": ["processor4_v1"]
+        }
+      }
+    }
+  ],
+  "case": [
+    {
+      "id": 0,
+      "name": "case1",
+      "image": "https://place-hold.it/512x512&text=case1&fontsize=35",
+      "characteristics": {
+        "case1_k1": "case1_v1",
+        "case1_k2": "case1_v2",
+        "case1_k3": "case1_v3",
+        "case1_k4": "case1_v4"
+      },
+      "price": 1000,
+      "group": 1,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/case.jpg",
+      "validation": {
+        "motherboard": {
+          "motherboard1_k1": ["motherboard1_v1"]
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "case2",
+      "image": "https://place-hold.it/512x512&text=case2&fontsize=35",
+      "characteristics": {
+        "case2_k1": "case2_v1",
+        "case2_k2": "case2_v2",
+        "case2_k3": "case2_v3",
+        "case2_k4": "case2_v4"
+      },
+      "price": 2000,
+      "group": 1,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/case.jpg",
+      "validation": {
+        "motherboard": {
+          "motherboard2_k1": ["motherboard2_v1"]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "case3",
+      "image": "https://place-hold.it/512x512&text=case3&fontsize=35",
+      "characteristics": {
+        "case3_k1": "case3_v1",
+        "case3_k2": "case3_v2",
+        "case3_k3": "case3_v3",
+        "case3_k4": "case3_v4"
+      },
+      "price": 3000,
+      "group": 2,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/case.jpg",
+      "validation": {
+        "motherboard": {
+          "motherboard3_k1": ["motherboard3_v1"]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "case4",
+      "image": "https://place-hold.it/512x512&text=case4&fontsize=35",
+      "characteristics": {
+        "case4_k1": "case4_v1",
+        "case4_k2": "case4_v2",
+        "case4_k3": "case4_v3",
+        "case4_k4": "case4_v4"
+      },
+      "price": 4000,
+      "group": 2,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/case.jpg",
+      "validation": {
+        "motherboard": {
+          "motherboard4_k1": ["motherboard4_v1"]
+        }
+      }
+    }
+  ],
+  "cooling": [
+    {
+      "id": 0,
+      "name": "cooling1",
+      "image": "https://place-hold.it/512x512&text=cooling1&fontsize=35",
+      "characteristics": {
+        "cooling1_k1": "cooling1_v1",
+        "cooling1_k2": "cooling1_v2",
+        "cooling1_k3": "cooling1_v3",
+        "cooling1_k4": "cooling1_v4"
+      },
+      "price": 1000,
+      "group": 1,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/cooling.jpg",
+      "validation": {
+        "case": {
+          "case1_k1": ["case1_v1"]
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "cooling2",
+      "image": "https://place-hold.it/512x512&text=cooling2&fontsize=35",
+      "characteristics": {
+        "cooling2_k1": "cooling2_v1",
+        "cooling2_k2": "cooling2_v2",
+        "cooling2_k3": "cooling2_v3",
+        "cooling2_k4": "cooling2_v4"
+      },
+      "price": 2000,
+      "group": 1,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/cooling.jpg",
+      "validation": {
+        "case": {
+          "case2_k1": ["case2_v1"]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "cooling3",
+      "image": "https://place-hold.it/512x512&text=cooling3&fontsize=35",
+      "characteristics": {
+        "cooling3_k1": "cooling3_v1",
+        "cooling3_k2": "cooling3_v2",
+        "cooling3_k3": "cooling3_v3",
+        "cooling3_k4": "cooling3_v4"
+      },
+      "price": 3000,
+      "group": 2,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/cooling.jpg",
+      "validation": {
+        "case": {
+          "case3_k1": ["case3_v1"]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "cooling4",
+      "image": "https://place-hold.it/512x512&text=cooling4&fontsize=35",
+      "characteristics": {
+        "cooling4_k1": "cooling4_v1",
+        "cooling4_k2": "cooling4_v2",
+        "cooling4_k3": "cooling4_v3",
+        "cooling4_k4": "cooling4_v4"
+      },
+      "price": 4000,
+      "group": 2,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/cooling.jpg",
+      "validation": {
+        "case": {
+          "case4_k1": ["case4_v1"]
+        }
+      }
+    }
+  ],
+  "ram": [
+    {
+      "id": 0,
+      "name": "ram1",
+      "image": "https://place-hold.it/512x512&text=ram1&fontsize=35",
+      "characteristics": {
+        "ram1_k1": "ram1_v1",
+        "ram1_k2": "ram1_v2",
+        "ram1_k3": "ram1_v3",
+        "ram1_k4": "ram1_v4"
+      },
+      "price": 1000,
+      "group": 1,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/ram.jpg",
+      "validation": {
+        "cooling": {
+          "cooling1_k1": ["cooling1_v1"]
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "ram2",
+      "image": "https://place-hold.it/512x512&text=ram2&fontsize=35",
+      "characteristics": {
+        "ram2_k1": "ram2_v1",
+        "ram2_k2": "ram2_v2",
+        "ram2_k3": "ram2_v3",
+        "ram2_k4": "ram2_v4"
+      },
+      "price": 2000,
+      "group": 1,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/ram.jpg",
+      "validation": {
+        "cooling": {
+          "cooling2_k1": ["cooling2_v1"]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "ram3",
+      "image": "https://place-hold.it/512x512&text=ram3&fontsize=35",
+      "characteristics": {
+        "ram3_k1": "ram3_v1",
+        "ram3_k2": "ram3_v2",
+        "ram3_k3": "ram3_v3",
+        "ram3_k4": "ram3_v4"
+      },
+      "price": 3000,
+      "group": 2,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/ram.jpg",
+      "validation": {
+        "cooling": {
+          "cooling3_k1": ["cooling3_v1"]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "ram4",
+      "image": "https://place-hold.it/512x512&text=ram4&fontsize=35",
+      "characteristics": {
+        "ram4_k1": "ram4_v1",
+        "ram4_k2": "ram4_v2",
+        "ram4_k3": "ram4_v3",
+        "ram4_k4": "ram4_v4"
+      },
+      "price": 4000,
+      "group": 2,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/ram.jpg",
+      "validation": {
+        "cooling": {
+          "cooling4_k1": ["cooling4_v1"]
+        }
+      }
+    }
+  ],
+  "video_card": [
+    {
+      "id": 0,
+      "name": "video_card1",
+      "image": "https://place-hold.it/512x512&text=video_card1&fontsize=35",
+      "characteristics": {
+        "video_card1_k1": "video_card1_v1",
+        "video_card1_k2": "video_card1_v2",
+        "video_card1_k3": "video_card1_v3",
+        "video_card1_k4": "video_card1_v4"
+      },
+      "price": 1000,
+      "group": 1,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/video_card.jpg",
+      "validation": {
+        "ram": {
+          "ram1_k1": ["ram1_v1"]
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "video_card2",
+      "image": "https://place-hold.it/512x512&text=video_card2&fontsize=35",
+      "characteristics": {
+        "video_card2_k1": "video_card2_v1",
+        "video_card2_k2": "video_card2_v2",
+        "video_card2_k3": "video_card2_v3",
+        "video_card2_k4": "video_card2_v4"
+      },
+      "price": 2000,
+      "group": 1,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/video_card.jpg",
+      "validation": {
+        "ram": {
+          "ram2_k1": ["ram2_v1"]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "video_card3",
+      "image": "https://place-hold.it/512x512&text=video_card3&fontsize=35",
+      "characteristics": {
+        "video_card3_k1": "video_card3_v1",
+        "video_card3_k2": "video_card3_v2",
+        "video_card3_k3": "video_card3_v3",
+        "video_card3_k4": "video_card3_v4"
+      },
+      "price": 3000,
+      "group": 2,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/video_card.jpg",
+      "validation": {
+        "ram": {
+          "ram3_k1": ["ram3_v1"]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "video_card4",
+      "image": "https://place-hold.it/512x512&text=video_card4&fontsize=35",
+      "characteristics": {
+        "video_card4_k1": "video_card4_v1",
+        "video_card4_k2": "video_card4_v2",
+        "video_card4_k3": "video_card4_v3",
+        "video_card4_k4": "video_card4_v4"
+      },
+      "price": 4000,
+      "group": 2,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/video_card.jpg",
+      "validation": {
+        "ram": {
+          "ram4_k1": ["ram4_v1"]
+        }
+      }
+    }
+  ],
+  "hard_drive": [
+    {
+      "id": 0,
+      "name": "hard_drive1",
+      "image": "https://place-hold.it/512x512&text=hard_drive1&fontsize=35",
+      "characteristics": {
+        "hard_drive1_k1": "hard_drive1_v1",
+        "hard_drive1_k2": "hard_drive1_v2",
+        "hard_drive1_k3": "hard_drive1_v3",
+        "hard_drive1_k4": "hard_drive1_v4"
+      },
+      "price": 1000,
+      "group": 1,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/hard_drive.jpg",
+      "validation": {
+        "video_card": {
+          "video_card1_k1": ["video_card1_v1"]
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "hard_drive2",
+      "image": "https://place-hold.it/512x512&text=hard_drive2&fontsize=35",
+      "characteristics": {
+        "hard_drive2_k1": "hard_drive2_v1",
+        "hard_drive2_k2": "hard_drive2_v2",
+        "hard_drive2_k3": "hard_drive2_v3",
+        "hard_drive2_k4": "hard_drive2_v4"
+      },
+      "price": 2000,
+      "group": 1,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/hard_drive.jpg",
+      "validation": {
+        "video_card": {
+          "video_card2_k1": ["video_card2_v1"]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "hard_drive3",
+      "image": "https://place-hold.it/512x512&text=hard_drive3&fontsize=35",
+      "characteristics": {
+        "hard_drive3_k1": "hard_drive3_v1",
+        "hard_drive3_k2": "hard_drive3_v2",
+        "hard_drive3_k3": "hard_drive3_v3",
+        "hard_drive3_k4": "hard_drive3_v4"
+      },
+      "price": 3000,
+      "group": 2,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/hard_drive.jpg",
+      "validation": {
+        "video_card": {
+          "video_card3_k1": ["video_card3_v1"]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "hard_drive4",
+      "image": "https://place-hold.it/512x512&text=hard_drive4&fontsize=35",
+      "characteristics": {
+        "hard_drive4_k1": "hard_drive4_v1",
+        "hard_drive4_k2": "hard_drive4_v2",
+        "hard_drive4_k3": "hard_drive4_v3",
+        "hard_drive4_k4": "hard_drive4_v4"
+      },
+      "price": 4000,
+      "group": 2,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/hard_drive.jpg",
+      "validation": {
+        "video_card": {
+          "video_card4_k1": ["video_card4_v1"]
+        }
+      }
+    }
+  ],
+  "ssd": [
+    {
+      "id": 0,
+      "name": "ssd1",
+      "image": "https://place-hold.it/512x512&text=ssd1&fontsize=35",
+      "characteristics": {
+        "ssd1_k1": "ssd1_v1",
+        "ssd1_k2": "ssd1_v2",
+        "ssd1_k3": "ssd1_v3",
+        "ssd1_k4": "ssd1_v4"
+      },
+      "price": 1000,
+      "group": 1,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/ssd.jpg",
+      "validation": {
+        "hard_drive": {
+          "hard_drive1_k1": ["hard_drive1_v1"]
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "ssd2",
+      "image": "https://place-hold.it/512x512&text=ssd2&fontsize=35",
+      "characteristics": {
+        "ssd2_k1": "ssd2_v1",
+        "ssd2_k2": "ssd2_v2",
+        "ssd2_k3": "ssd2_v3",
+        "ssd2_k4": "ssd2_v4"
+      },
+      "price": 2000,
+      "group": 1,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/ssd.jpg",
+      "validation": {
+        "hard_drive": {
+          "hard_drive2_k1": ["hard_drive2_v1"]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "ssd3",
+      "image": "https://place-hold.it/512x512&text=ssd3&fontsize=35",
+      "characteristics": {
+        "ssd3_k1": "ssd3_v1",
+        "ssd3_k2": "ssd3_v2",
+        "ssd3_k3": "ssd3_v3",
+        "ssd3_k4": "ssd3_v4"
+      },
+      "price": 3000,
+      "group": 2,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/ssd.jpg",
+      "validation": {
+        "hard_drive": {
+          "hard_drive3_k1": ["hard_drive3_v1"]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "ssd4",
+      "image": "https://place-hold.it/512x512&text=ssd4&fontsize=35",
+      "characteristics": {
+        "ssd4_k1": "ssd4_v1",
+        "ssd4_k2": "ssd4_v2",
+        "ssd4_k3": "ssd4_v3",
+        "ssd4_k4": "ssd4_v4"
+      },
+      "price": 4000,
+      "group": 2,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/ssd.jpg",
+      "validation": {
+        "hard_drive": {
+          "hard_drive4_k1": ["hard_drive4_v1"]
+        }
+      }
+    }
+  ],
+  "power_supply": [
+    {
+      "id": 0,
+      "name": "power1",
+      "image": "https://place-hold.it/512x512&text=power1&fontsize=35",
+      "characteristics": {
+        "power1_k1": "power1_v1",
+        "power1_k2": "power1_v2",
+        "power1_k3": "power1_v3",
+        "power1_k4": "power1_v4"
+      },
+      "price": 1000,
+      "group": 1,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/power_supply.jpg",
+      "validation": {
+        "ssd": {
+          "ssd1_k1": ["ssd1_v1"]
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "power2",
+      "image": "https://place-hold.it/512x512&text=power2&fontsize=35",
+      "characteristics": {
+        "power2_k1": "power2_v1",
+        "power2_k2": "power2_v2",
+        "power2_k3": "power2_v3",
+        "power2_k4": "power2_v4"
+      },
+      "price": 2000,
+      "group": 1,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/power_supply.jpg",
+      "validation": {
+        "ssd": {
+          "ssd2_k1": ["ssd2_v1"]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "power3",
+      "image": "https://place-hold.it/512x512&text=power3&fontsize=35",
+      "characteristics": {
+        "power3_k1": "power3_v1",
+        "power3_k2": "power3_v2",
+        "power3_k3": "power3_v3",
+        "power3_k4": "power3_v4"
+      },
+      "price": 3000,
+      "group": 2,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/power_supply.jpg",
+      "validation": {
+        "ssd": {
+          "ssd3_k1": ["ssd3_v1"]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "power4",
+      "image": "https://place-hold.it/512x512&text=power4&fontsize=35",
+      "characteristics": {
+        "power4_k1": "power4_v1",
+        "power4_k2": "power4_v2",
+        "power4_k3": "power4_v3",
+        "power4_k4": "power4_v4"
+      },
+      "price": 4000,
+      "group": 2,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/power_supply.jpg",
+      "validation": {
+        "ssd": {
+          "ssd4_k1": ["ssd4_v1"]
+        }
+      }
+    }
+  ]
+}
