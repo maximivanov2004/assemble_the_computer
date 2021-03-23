@@ -172,7 +172,7 @@ export default {
 
 .main-panel__right-panel-wrapper {
   position: relative;
-  flex: 1;
+  width: 485px;
   border-left: 4px solid var(--gray);
 }
 </style>

@@ -35,6 +35,8 @@ export default {
 }
 
 .task-description__text {
+  overflow: auto;
+  height: 445px;
   font-size: 32px;
 }
 </style>
