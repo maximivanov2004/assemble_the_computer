@@ -3,21 +3,19 @@
     <img class="header__logo" src="./assets/images/logo.png" alt="logo" />
     <span class="header__text">Build a computer - Собери компьютер</span>
   </div>
-  <div class="container">
-    <Timeline
-      :activeStage="activeStage"
-      :currentStage="currentStage"
-      @restart="restart"
-      @changeCurrentStage="changeCurrentStage"
-    />
-    <MainPanel
-      ref="mainPanel"
-      :activeStage="activeStage"
-      :currentStage="currentStage"
-      @complete="restart"
-      @nextStage="nextStage"
-    />
-  </div>
+  <Timeline
+    :activeStage="activeStage"
+    :currentStage="currentStage"
+    @restart="restart"
+    @changeCurrentStage="changeCurrentStage"
+  />
+  <MainPanel
+    ref="mainPanel"
+    :activeStage="activeStage"
+    :currentStage="currentStage"
+    @complete="restart"
+    @nextStage="nextStage"
+  />
 </template>
 
 <script>
@@ -110,14 +108,11 @@ body,
   --very-dark-gray: #333333;
 }
 
-#app {
-  display: flex;
-  flex-direction: column;
+body {
+  height: 100vh;
 }
 
-.container {
-  padding: 30px;
-  flex: 1;
+#app {
   display: flex;
   flex-direction: column;
 }
@@ -139,6 +134,7 @@ body,
 }
 
 .main-panel {
+  margin: 0 30px 30px 30px;
   flex: 1;
 }
 </style>

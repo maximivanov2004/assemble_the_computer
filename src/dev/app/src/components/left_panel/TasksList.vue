@@ -1,15 +1,17 @@
 <template>
-  <ul class="left-panel__tasks-list">
-    <li
-      class="tasks-list__task"
-      v-for="(task, index) in tasks"
-      :key="task.id"
-      :class="{ active: task.id === activeTask }"
-      @click="changeActiveTask(task.id)"
-    >
-      {{ index + 1 }}. {{ task.title }}
-    </li>
-  </ul>
+  <div class="wrapper">
+    <ul class="left-panel__tasks-list">
+      <li
+        class="tasks-list__task"
+        v-for="(task, index) in tasks"
+        :key="task.id"
+        :class="{ active: task.id === activeTask }"
+        @click="changeActiveTask(task.id)"
+      >
+        {{ index + 1 }}. {{ task.title }}
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script>
@@ -30,6 +32,11 @@ export default {
 </script>
 
 <style scoped>
+.wrapper {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 .left-panel__tasks-list {
   margin: 0;
   padding: 0;

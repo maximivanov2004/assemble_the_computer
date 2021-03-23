@@ -56,6 +56,7 @@ export default {
 
 <style scoped>
 .timeline-wrapper {
+  margin: 30px 30px 0 30px;
   margin-bottom: 30px;
   display: flex;
   align-items: center;

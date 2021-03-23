@@ -167,6 +167,7 @@ export default {
 
 .main-panel__left-panel {
   flex: 2;
+  height: 630px;
 }
 
 .main-panel__right-panel-wrapper {
