@@ -46,7 +46,9 @@ export default {
 
 <style scoped>
 .parts-list {
-  padding: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 11px;
   flex: 1;
   display: flex;
   flex-wrap: wrap;
@@ -55,6 +57,7 @@ export default {
 }
 
 .parts-list__part-item {
+  margin-bottom: 20px;
   width: 240px;
   height: 240px;
   position: relative;
