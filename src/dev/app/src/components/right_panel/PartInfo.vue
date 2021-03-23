@@ -5,7 +5,7 @@
       v-for="(charName, charValue) in part.characteristics"
       :key="charName"
     >
-      {{ charName }} : {{ charValue }}
+      <span>{{ charName }}: </span><span>{{ charValue }}</span>
     </div>
   </div>
 </template>
@@ -27,8 +27,23 @@ export default {
 </script>
 
 <style scoped>
+.part-info {
+  overflow: auto;
+  height: 445px;
+}
+
 .part-info__item {
+  display: flex;
+  align-items: center;
   font-size: 22px;
   font-weight: 300;
+}
+
+.part-info__item:nth-child(2n) {
+  background: var(--gray);
+}
+
+.part-info__item span:last-child {
+  margin-left: auto;
 }
 </style>
