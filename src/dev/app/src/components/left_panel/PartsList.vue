@@ -52,11 +52,11 @@ export default {
   flex: 1;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .parts-list__part-item {
-  margin-top: 10px;
+  margin: 10px 20px 0 20px;
   width: 240px;
   height: 240px;
   position: relative;
