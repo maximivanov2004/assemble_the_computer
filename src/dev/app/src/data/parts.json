@@ -2,6 +2,10 @@
   "processor": [
     {
       "id": 0,
+      "image_width": "68px",
+      "image_height": "68px",
+      "image_top": "138px",
+      "image_left": "117px",
       "name": "processor1",
       "image": "https://place-hold.it/512x512&text=processor1&fontsize=35",
       "characteristics": {
@@ -17,6 +21,10 @@
     },
     {
       "id": 1,
+      "image_width": "68px",
+      "image_height": "68px",
+      "image_top": "138px",
+      "image_left": "117px",
       "name": "processor2",
       "image": "https://place-hold.it/512x512&text=processor2&fontsize=35",
       "characteristics": {
@@ -32,6 +40,10 @@
     },
     {
       "id": 2,
+      "image_width": "68px",
+      "image_height": "68px",
+      "image_top": "138px",
+      "image_left": "117px",
       "name": "processor3",
       "image": "https://place-hold.it/512x512&text=processor3&fontsize=35",
       "characteristics": {
@@ -47,6 +59,10 @@
     },
     {
       "id": 3,
+      "image_width": "68px",
+      "image_height": "68px",
+      "image_top": "138px",
+      "image_left": "117px",
       "name": "processor4",
       "image": "https://place-hold.it/512x512&text=processor4&fontsize=35",
       "characteristics": {
@@ -64,6 +80,10 @@
   "motherboard": [
     {
       "id": 0,
+      "image_width": "300px",
+      "image_height": "350px",
+      "image_top": "120px",
+      "image_left": "10px",
       "name": "motherboard1",
       "image": "https://place-hold.it/512x512&text=motherboard1&fontsize=35",
       "characteristics": {
@@ -84,6 +104,10 @@
     },
     {
       "id": 1,
+      "image_width": "300px",
+      "image_height": "350px",
+      "image_top": "120px",
+      "image_left": "10px",
       "name": "motherboard2",
       "image": "https://place-hold.it/512x512&text=motherboard2&fontsize=35",
       "characteristics": {
@@ -104,6 +128,10 @@
     },
     {
       "id": 2,
+      "image_width": "300px",
+      "image_height": "350px",
+      "image_top": "120px",
+      "image_left": "10px",
       "name": "motherboard3",
       "image": "https://place-hold.it/512x512&text=motherboard3&fontsize=35",
       "characteristics": {
@@ -124,6 +152,10 @@
     },
     {
       "id": 3,
+      "image_width": "300px",
+      "image_height": "350px",
+      "image_top": "120px",
+      "image_left": "10px",
       "name": "motherboard4",
       "image": "https://place-hold.it/512x512&text=motherboard4&fontsize=35",
       "characteristics": {
@@ -146,6 +178,10 @@
   "case": [
     {
       "id": 0,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "case1",
       "image": "https://place-hold.it/512x512&text=case1&fontsize=35",
       "characteristics": {
@@ -166,6 +202,10 @@
     },
     {
       "id": 1,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "case2",
       "image": "https://place-hold.it/512x512&text=case2&fontsize=35",
       "characteristics": {
@@ -186,6 +226,10 @@
     },
     {
       "id": 2,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "case3",
       "image": "https://place-hold.it/512x512&text=case3&fontsize=35",
       "characteristics": {
@@ -206,6 +250,10 @@
     },
     {
       "id": 3,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "case4",
       "image": "https://place-hold.it/512x512&text=case4&fontsize=35",
       "characteristics": {
@@ -228,6 +276,10 @@
   "cooling": [
     {
       "id": 0,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "cooling1",
       "image": "https://place-hold.it/512x512&text=cooling1&fontsize=35",
       "characteristics": {
@@ -248,6 +300,10 @@
     },
     {
       "id": 1,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "cooling2",
       "image": "https://place-hold.it/512x512&text=cooling2&fontsize=35",
       "characteristics": {
@@ -268,6 +324,10 @@
     },
     {
       "id": 2,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "cooling3",
       "image": "https://place-hold.it/512x512&text=cooling3&fontsize=35",
       "characteristics": {
@@ -288,6 +348,10 @@
     },
     {
       "id": 3,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "cooling4",
       "image": "https://place-hold.it/512x512&text=cooling4&fontsize=35",
       "characteristics": {
@@ -310,6 +374,10 @@
   "ram": [
     {
       "id": 0,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "ram1",
       "image": "https://place-hold.it/512x512&text=ram1&fontsize=35",
       "characteristics": {
@@ -330,6 +398,10 @@
     },
     {
       "id": 1,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "ram2",
       "image": "https://place-hold.it/512x512&text=ram2&fontsize=35",
       "characteristics": {
@@ -350,6 +422,10 @@
     },
     {
       "id": 2,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "ram3",
       "image": "https://place-hold.it/512x512&text=ram3&fontsize=35",
       "characteristics": {
@@ -370,6 +446,10 @@
     },
     {
       "id": 3,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "ram4",
       "image": "https://place-hold.it/512x512&text=ram4&fontsize=35",
       "characteristics": {
@@ -392,6 +472,10 @@
   "video_card": [
     {
       "id": 0,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "video_card1",
       "image": "https://place-hold.it/512x512&text=video_card1&fontsize=35",
       "characteristics": {
@@ -412,6 +496,10 @@
     },
     {
       "id": 1,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "video_card2",
       "image": "https://place-hold.it/512x512&text=video_card2&fontsize=35",
       "characteristics": {
@@ -432,6 +520,10 @@
     },
     {
       "id": 2,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "video_card3",
       "image": "https://place-hold.it/512x512&text=video_card3&fontsize=35",
       "characteristics": {
@@ -452,6 +544,10 @@
     },
     {
       "id": 3,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "video_card4",
       "image": "https://place-hold.it/512x512&text=video_card4&fontsize=35",
       "characteristics": {
@@ -474,6 +570,10 @@
   "hard_drive": [
     {
       "id": 0,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "hard_drive1",
       "image": "https://place-hold.it/512x512&text=hard_drive1&fontsize=35",
       "characteristics": {
@@ -494,6 +594,10 @@
     },
     {
       "id": 1,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "hard_drive2",
       "image": "https://place-hold.it/512x512&text=hard_drive2&fontsize=35",
       "characteristics": {
@@ -514,6 +618,10 @@
     },
     {
       "id": 2,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "hard_drive3",
       "image": "https://place-hold.it/512x512&text=hard_drive3&fontsize=35",
       "characteristics": {
@@ -534,6 +642,10 @@
     },
     {
       "id": 3,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "hard_drive4",
       "image": "https://place-hold.it/512x512&text=hard_drive4&fontsize=35",
       "characteristics": {
@@ -556,6 +668,10 @@
   "ssd": [
     {
       "id": 0,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "ssd1",
       "image": "https://place-hold.it/512x512&text=ssd1&fontsize=35",
       "characteristics": {
@@ -576,6 +692,10 @@
     },
     {
       "id": 1,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "ssd2",
       "image": "https://place-hold.it/512x512&text=ssd2&fontsize=35",
       "characteristics": {
@@ -596,6 +716,10 @@
     },
     {
       "id": 2,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "ssd3",
       "image": "https://place-hold.it/512x512&text=ssd3&fontsize=35",
       "characteristics": {
@@ -616,6 +740,10 @@
     },
     {
       "id": 3,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "ssd4",
       "image": "https://place-hold.it/512x512&text=ssd4&fontsize=35",
       "characteristics": {
@@ -638,6 +766,10 @@
   "power_supply": [
     {
       "id": 0,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "power1",
       "image": "https://place-hold.it/512x512&text=power1&fontsize=35",
       "characteristics": {
@@ -658,6 +790,10 @@
     },
     {
       "id": 1,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "power2",
       "image": "https://place-hold.it/512x512&text=power2&fontsize=35",
       "characteristics": {
@@ -678,6 +814,10 @@
     },
     {
       "id": 2,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "power3",
       "image": "https://place-hold.it/512x512&text=power3&fontsize=35",
       "characteristics": {
@@ -698,6 +838,10 @@
     },
     {
       "id": 3,
+      "image_width": "500px",
+      "image_height": "500px",
+      "image_top": 0,
+      "image_left": 0,
       "name": "power4",
       "image": "https://place-hold.it/512x512&text=power4&fontsize=35",
       "characteristics": {

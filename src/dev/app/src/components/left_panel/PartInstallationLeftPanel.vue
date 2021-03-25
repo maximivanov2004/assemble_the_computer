@@ -1,20 +1,32 @@
 <template>
   <div class="left-panel__part-installation-left-panel">
-    <img
-      v-for="imageSource in images"
-      :src="imageSource"
-      alt="img"
-      :key="imageSource"
-    />
-    <button
-      id="install-part-button"
-      @click="installPart(step.part_name)"
-      :class="{
-        hide: installedParts[installedParts.length - 1] === step.part_name,
-      }"
-    >
-      install {{ step.part_name }}
-    </button>
+    <div class="wrapper">
+      <img
+        v-for="part in parts"
+        :src="part.part_image"
+        alt="img"
+        :key="part.part_name"
+        :style="{
+          width: part.image_width,
+          height: part.image_height,
+          top: part.image_top,
+          left: part.image_left,
+        }"
+      />
+      <button
+        id="install-part-button"
+        @click="installPart(step.part_name)"
+        :class="{
+          hide: installedParts[installedParts.length - 1] === step.part_name,
+        }"
+        :style="{
+          width: currentPart.image_width,
+          height: currentPart.image_height,
+          top: currentPart.image_top,
+          left: currentPart.image_left,
+        }"
+      ></button>
+    </div>
   </div>
 </template>
 
@@ -25,12 +37,17 @@ export default {
   name: "PartInstallationLeftPanel",
   props: ["installedParts", "build", "step"],
   computed: {
-    images() {
+    parts() {
       return this.installedParts.map((part_name) => {
         return parts[part_name].find(
           (part) => part.id === this.build[part_name]
-        ).part_image;
+        );
       });
+    },
+    currentPart() {
+      return parts[this.step.part_name].find(
+        (part) => part.id === this.build[this.step.part_name]
+      );
     },
   },
   methods: {
@@ -56,6 +73,15 @@ export default {
 
 <style scoped>
 .left-panel__part-installation-left-panel {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 500px;
+  height: 500px;
   position: relative;
 }
 
@@ -67,6 +93,12 @@ img {
 #install-part-button {
   position: absolute;
   z-index: 1;
+  border: 4px solid var(--dark-gray);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.5);
+}
+#install-part-button:hover {
+  border-color: var(--main-green);
 }
 
 #install-part-button.hide {
