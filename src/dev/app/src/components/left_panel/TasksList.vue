@@ -34,8 +34,8 @@ export default {
 <style scoped>
 .wrapper {
   flex: 1;
-  overflow-y: auto;
-  overflow-x: hidden;
+  /* overflow-y: auto;
+  overflow-x: hidden; */
 }
 .left-panel__tasks-list {
   margin: 0;
