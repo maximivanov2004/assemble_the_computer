@@ -10,9 +10,25 @@
       "image": "https://place-hold.it/512x512&text=processor1&fontsize=35",
       "characteristics": {
         "processor1_k1": "processor1_v1",
-        "processor1_k2": "processor1_v2",
-        "processor1_k3": "processor1_v3",
-        "processor1_k4": "processor1_v4"
+        "processor1_k2": "processor1_v1aaa a aa a a aaaaa aa aaaaaa ",
+        "processor1_k3aaa a aaaa aa aaaa aa a aaa": "processor1_v2",
+        "processor1_k4": "processor1_v4",
+        "processor1_k5": "processor1_v5",
+        "processor1_k6": "processor1_v6",
+        "processor1_k7": "processor1_v7",
+        "processor1_k8": "processor1_v8",
+        "processor1_k9": "processor1_v9",
+        "processor1_k10": "processor1_v10",
+        "processor1_k11": "processor1_v11",
+        "processor1_k12": "processor1_v12",
+        "processor1_k13": "processor1_v13",
+        "processor1_k14": "processor1_v14",
+        "processor1_k15": "processor1_v15",
+        "processor1_k16": "processor1_v16",
+        "processor1_k17": "processor1_v17",
+        "processor1_k18": "processor1_v18",
+        "processor1_k19": "processor1_v19",
+        "processor1_k20": "processor1_v20"
       },
       "price": 1000,
       "group": 1,
@@ -59,6 +75,158 @@
     },
     {
       "id": 3,
+      "image_width": "68px",
+      "image_height": "68px",
+      "image_top": "138px",
+      "image_left": "117px",
+      "name": "processor4",
+      "image": "https://place-hold.it/512x512&text=processor4&fontsize=35",
+      "characteristics": {
+        "processor4_k1": "processor4_v1",
+        "processor4_k2": "processor4_v2",
+        "processor4_k3": "processor4_v3",
+        "processor4_k4": "processor4_v4"
+      },
+      "price": 4000,
+      "group": 2,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/processor.jpg"
+    },
+    {
+      "id": 4,
+      "image_width": "68px",
+      "image_height": "68px",
+      "image_top": "138px",
+      "image_left": "117px",
+      "name": "processor5",
+      "image": "https://place-hold.it/512x512&text=processor5&fontsize=35",
+      "characteristics": {
+        "processor1_k1": "processor5_v1",
+        "processor1_k2": "processor5_v2",
+        "processor1_k3": "processor5_v3",
+        "processor1_k4": "processor5_v4"
+      },
+      "price": 1000,
+      "group": 1,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/processor.jpg"
+    },
+    {
+      "id": 5,
+      "image_width": "68px",
+      "image_height": "68px",
+      "image_top": "138px",
+      "image_left": "117px",
+      "name": "processor2",
+      "image": "https://place-hold.it/512x512&text=processor2&fontsize=35",
+      "characteristics": {
+        "processor2_k1": "processor2_v1",
+        "processor2_k2": "processor2_v2",
+        "processor2_k3": "processor2_v3",
+        "processor2_k4": "processor2_v4"
+      },
+      "price": 2000,
+      "group": 1,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/processor.jpg"
+    },
+    {
+      "id": 6,
+      "image_width": "68px",
+      "image_height": "68px",
+      "image_top": "138px",
+      "image_left": "117px",
+      "name": "processor3",
+      "image": "https://place-hold.it/512x512&text=processor3&fontsize=35",
+      "characteristics": {
+        "processor3_k1": "processor3_v1",
+        "processor3_k2": "processor3_v2",
+        "processor3_k3": "processor3_v3",
+        "processor3_k4": "processor3_v4"
+      },
+      "price": 3000,
+      "group": 2,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/processor.jpg"
+    },
+    {
+      "id": 7,
+      "image_width": "68px",
+      "image_height": "68px",
+      "image_top": "138px",
+      "image_left": "117px",
+      "name": "processor4",
+      "image": "https://place-hold.it/512x512&text=processor4&fontsize=35",
+      "characteristics": {
+        "processor4_k1": "processor4_v1",
+        "processor4_k2": "processor4_v2",
+        "processor4_k3": "processor4_v3",
+        "processor4_k4": "processor4_v4"
+      },
+      "price": 4000,
+      "group": 2,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/processor.jpg"
+    },
+    {
+      "id": 8,
+      "image_width": "68px",
+      "image_height": "68px",
+      "image_top": "138px",
+      "image_left": "117px",
+      "name": "processor1",
+      "image": "https://place-hold.it/512x512&text=processor1&fontsize=35",
+      "characteristics": {
+        "processor1_k1": "processor1_v1",
+        "processor1_k2": "processor1_v2",
+        "processor1_k3": "processor1_v3",
+        "processor1_k4": "processor1_v4"
+      },
+      "price": 1000,
+      "group": 1,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/processor.jpg"
+    },
+    {
+      "id": 9,
+      "image_width": "68px",
+      "image_height": "68px",
+      "image_top": "138px",
+      "image_left": "117px",
+      "name": "processor2",
+      "image": "https://place-hold.it/512x512&text=processor2&fontsize=35",
+      "characteristics": {
+        "processor2_k1": "processor2_v1",
+        "processor2_k2": "processor2_v2",
+        "processor2_k3": "processor2_v3",
+        "processor2_k4": "processor2_v4"
+      },
+      "price": 2000,
+      "group": 1,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/processor.jpg"
+    },
+    {
+      "id": 10,
+      "image_width": "68px",
+      "image_height": "68px",
+      "image_top": "138px",
+      "image_left": "117px",
+      "name": "processor3",
+      "image": "https://place-hold.it/512x512&text=processor3&fontsize=35",
+      "characteristics": {
+        "processor3_k1": "processor3_v1",
+        "processor3_k2": "processor3_v2",
+        "processor3_k3": "processor3_v3",
+        "processor3_k4": "processor3_v4"
+      },
+      "price": 3000,
+      "group": 2,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/processor.jpg"
+    },
+    {
+      "id": 11,
       "image_width": "68px",
       "image_height": "68px",
       "image_top": "138px",

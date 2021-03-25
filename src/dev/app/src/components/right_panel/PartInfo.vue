@@ -2,7 +2,7 @@
   <div class="part-info">
     <div
       class="part-info__item"
-      v-for="(charName, charValue) in part.characteristics"
+      v-for="(charValue, charName) in part.characteristics"
       :key="charName"
     >
       <span>{{ charName }}: </span><span>{{ charValue }}</span>
@@ -29,7 +29,7 @@ export default {
 <style scoped>
 .part-info {
   overflow: auto;
-  height: 445px;
+  height: 420px;
 }
 
 .part-info__item {
