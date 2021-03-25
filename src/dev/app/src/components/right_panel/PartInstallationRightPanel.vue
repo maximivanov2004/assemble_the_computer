@@ -1,7 +1,10 @@
 <template>
   <div class="part-installation-right-panel">
     <p>Нажмите в нужное место</p>
-    <img :src="imgSource" alt="image" height="100" width="100" />
+    <div
+      class="part-image"
+      :style="{ backgroundImage: `url(${imgSource})` }"
+    ></div>
   </div>
 </template>
 
@@ -20,3 +23,12 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.part-image {
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+</style>
