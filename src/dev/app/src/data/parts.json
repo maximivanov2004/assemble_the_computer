@@ -263,12 +263,7 @@
       "price": 1000,
       "group": 1,
       "group_id": 0,
-      "part_image": "./assets/images/parts/motherboard.jpg",
-      "validation": {
-        "processor": {
-          "processor1_k1": ["processor1_v1"]
-        }
-      }
+      "part_image": "./assets/images/parts/motherboard.jpg"
     },
     {
       "id": 1,
