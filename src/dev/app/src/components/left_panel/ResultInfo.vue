@@ -16,7 +16,7 @@
         <img
           v-else
           class="part-mark"
-          src="../../assets/icons/yellow_check_mark.png"
+          src="../../assets/icons/x_mark.png"
           alt="check mark"
         />
         <img class="part-icon" :src="partsIcons[partName]" alt="part icon" />
@@ -119,5 +119,9 @@ export default {
 .result-item.wrong .part-icon {
   border-color: var(--red);
   background: var(--pale-red);
+}
+
+.result-item.wrong .part-mark {
+  width: 55px;
 }
 </style>
