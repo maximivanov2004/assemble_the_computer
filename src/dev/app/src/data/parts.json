@@ -263,7 +263,7 @@
       "price": 1000,
       "group": 1,
       "group_id": 0,
-      "part_image": "./assets/images/parts/motherboard.jpg"
+      "part_image": "./assets/images/parts/motherboard.png"
     },
     {
       "id": 1,
@@ -282,7 +282,7 @@
       "price": 2000,
       "group": 1,
       "group_id": 1,
-      "part_image": "./assets/images/parts/motherboard.jpg",
+      "part_image": "./assets/images/parts/motherboard.png",
       "validation": {
         "processor": {
           "processor2_k1": ["processor2_v1"]
@@ -306,7 +306,7 @@
       "price": 3000,
       "group": 2,
       "group_id": 0,
-      "part_image": "./assets/images/parts/motherboard.jpg",
+      "part_image": "./assets/images/parts/motherboard.png",
       "validation": {
         "processor": {
           "processor3_k1": ["processor3_v1"]
@@ -330,7 +330,7 @@
       "price": 4000,
       "group": 2,
       "group_id": 1,
-      "part_image": "./assets/images/parts/motherboard.jpg",
+      "part_image": "./assets/images/parts/motherboard.png",
       "validation": {
         "processor": {
           "processor4_k1": ["processor4_v1"]
@@ -454,7 +454,7 @@
       "price": 1000,
       "group": 1,
       "group_id": 0,
-      "part_image": "./assets/images/parts/cooling.jpg",
+      "part_image": "./assets/images/parts/cooling.png",
       "validation": {
         "case": {
           "case1_k1": ["case1_v1"]
@@ -478,7 +478,7 @@
       "price": 2000,
       "group": 1,
       "group_id": 1,
-      "part_image": "./assets/images/parts/cooling.jpg",
+      "part_image": "./assets/images/parts/cooling.png",
       "validation": {
         "case": {
           "case2_k1": ["case2_v1"]
@@ -502,7 +502,7 @@
       "price": 3000,
       "group": 2,
       "group_id": 0,
-      "part_image": "./assets/images/parts/cooling.jpg",
+      "part_image": "./assets/images/parts/cooling.png",
       "validation": {
         "case": {
           "case3_k1": ["case3_v1"]
@@ -526,7 +526,7 @@
       "price": 4000,
       "group": 2,
       "group_id": 1,
-      "part_image": "./assets/images/parts/cooling.jpg",
+      "part_image": "./assets/images/parts/cooling.png",
       "validation": {
         "case": {
           "case4_k1": ["case4_v1"]
@@ -637,7 +637,7 @@
       "id": 0,
       "image_width": "220px",
       "image_height": "35px",
-      "image_top": "300px",
+      "image_top": "296px",
       "image_left": "5px",
       "name": "video_card1",
       "image": "https://place-hold.it/512x512&text=video_card1&fontsize=35",
@@ -650,7 +650,7 @@
       "price": 1000,
       "group": 1,
       "group_id": 0,
-      "part_image": "./assets/images/parts/video_card.jpg",
+      "part_image": "./assets/images/parts/video_card.png",
       "validation": {
         "ram": {
           "ram1_k1": ["ram1_v1"]
@@ -661,7 +661,7 @@
       "id": 1,
       "image_width": "220px",
       "image_height": "35px",
-      "image_top": "300px",
+      "image_top": "296px",
       "image_left": "5px",
       "name": "video_card2",
       "image": "https://place-hold.it/512x512&text=video_card2&fontsize=35",
@@ -674,7 +674,7 @@
       "price": 2000,
       "group": 1,
       "group_id": 1,
-      "part_image": "./assets/images/parts/video_card.jpg",
+      "part_image": "./assets/images/parts/video_card.png",
       "validation": {
         "ram": {
           "ram2_k1": ["ram2_v1"]
@@ -685,7 +685,7 @@
       "id": 2,
       "image_width": "220px",
       "image_height": "35px",
-      "image_top": "300px",
+      "image_top": "296px",
       "image_left": "5px",
       "name": "video_card3",
       "image": "https://place-hold.it/512x512&text=video_card3&fontsize=35",
@@ -698,7 +698,7 @@
       "price": 3000,
       "group": 2,
       "group_id": 0,
-      "part_image": "./assets/images/parts/video_card.jpg",
+      "part_image": "./assets/images/parts/video_card.png",
       "validation": {
         "ram": {
           "ram3_k1": ["ram3_v1"]
@@ -709,7 +709,7 @@
       "id": 3,
       "image_width": "220px",
       "image_height": "35px",
-      "image_top": "300px",
+      "image_top": "296px",
       "image_left": "5px",
       "name": "video_card4",
       "image": "https://place-hold.it/512x512&text=video_card4&fontsize=35",
@@ -722,7 +722,7 @@
       "price": 4000,
       "group": 2,
       "group_id": 1,
-      "part_image": "./assets/images/parts/video_card.jpg",
+      "part_image": "./assets/images/parts/video_card.png",
       "validation": {
         "ram": {
           "ram4_k1": ["ram4_v1"]
@@ -748,7 +748,7 @@
       "price": 1000,
       "group": 1,
       "group_id": 0,
-      "part_image": "./assets/images/parts/hard_drive.jpg",
+      "part_image": "./assets/images/parts/hard_drive.png",
       "validation": {
         "video_card": {
           "video_card1_k1": ["video_card1_v1"]
@@ -772,7 +772,7 @@
       "price": 2000,
       "group": 1,
       "group_id": 1,
-      "part_image": "./assets/images/parts/hard_drive.jpg",
+      "part_image": "./assets/images/parts/hard_drive.png",
       "validation": {
         "video_card": {
           "video_card2_k1": ["video_card2_v1"]
@@ -796,7 +796,7 @@
       "price": 3000,
       "group": 2,
       "group_id": 0,
-      "part_image": "./assets/images/parts/hard_drive.jpg",
+      "part_image": "./assets/images/parts/hard_drive.png",
       "validation": {
         "video_card": {
           "video_card3_k1": ["video_card3_v1"]
@@ -820,7 +820,7 @@
       "price": 4000,
       "group": 2,
       "group_id": 1,
-      "part_image": "./assets/images/parts/hard_drive.jpg",
+      "part_image": "./assets/images/parts/hard_drive.png",
       "validation": {
         "video_card": {
           "video_card4_k1": ["video_card4_v1"]
@@ -846,7 +846,7 @@
       "price": 1000,
       "group": 1,
       "group_id": 0,
-      "part_image": "./assets/images/parts/ssd.jpg",
+      "part_image": "./assets/images/parts/ssd.png",
       "validation": {
         "hard_drive": {
           "hard_drive1_k1": ["hard_drive1_v1"]
@@ -870,7 +870,7 @@
       "price": 2000,
       "group": 1,
       "group_id": 1,
-      "part_image": "./assets/images/parts/ssd.jpg",
+      "part_image": "./assets/images/parts/ssd.png",
       "validation": {
         "hard_drive": {
           "hard_drive2_k1": ["hard_drive2_v1"]
@@ -894,7 +894,7 @@
       "price": 3000,
       "group": 2,
       "group_id": 0,
-      "part_image": "./assets/images/parts/ssd.jpg",
+      "part_image": "./assets/images/parts/ssd.png",
       "validation": {
         "hard_drive": {
           "hard_drive3_k1": ["hard_drive3_v1"]
@@ -918,7 +918,7 @@
       "price": 4000,
       "group": 2,
       "group_id": 1,
-      "part_image": "./assets/images/parts/ssd.jpg",
+      "part_image": "./assets/images/parts/ssd.png",
       "validation": {
         "hard_drive": {
           "hard_drive4_k1": ["hard_drive4_v1"]
