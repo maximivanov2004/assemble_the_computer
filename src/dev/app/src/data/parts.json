@@ -2,247 +2,138 @@
   "processor": [
     {
       "id": 0,
+      "name": "AMD Athlon 3000G",
+      "image": "./assets/images/parts/processors/amd_athlon_3000g.jpg",
+      "characteristics": {
+        "Модель": "AMD Athlon 3000G",
+        "Сокет": "AM4",
+        "Количество ядер": "2",
+        "Базовая частота процессора": "3500 МГц",
+        "Тип памяти": "DDR4",
+        "Максимально поддерживаемый объем памяти": "64 ГБ",
+        "Количество каналов": "2",
+        "Максимальная частота оперативной памяти": "2667 МГц",
+        "Тепловыделение (TDP)": "35 Вт",
+        "Интегрированное графическое ядро": "есть",
+        "Модель графического процессора": "Radeon Vega 3",
+        "Цена": "4 799 рублей"
+      },
+      "price": 4799,
+      "group": 1,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/vector/processor.jpg",
       "image_width": "65px",
       "image_height": "65px",
       "image_top": "143px",
-      "image_left": "115px",
-      "name": "processor1",
-      "image": "https://place-hold.it/512x512&text=processor1&fontsize=35",
-      "characteristics": {
-        "processor1_k1": "processor1_v1",
-        "processor1_k2": "processor1_v1aaa a aa a a aaaaa aa aaaaaa ",
-        "processor1_k3aaa a aaaa aa aaaa aa a aaa": "processor1_v2",
-        "processor1_k4": "processor1_v4",
-        "processor1_k5": "processor1_v5",
-        "processor1_k6": "processor1_v6",
-        "processor1_k7": "processor1_v7",
-        "processor1_k8": "processor1_v8",
-        "processor1_k9": "processor1_v9",
-        "processor1_k10": "processor1_v10",
-        "processor1_k11": "processor1_v11",
-        "processor1_k12": "processor1_v12",
-        "processor1_k13": "processor1_v13",
-        "processor1_k14": "processor1_v14",
-        "processor1_k15": "processor1_v15",
-        "processor1_k16": "processor1_v16",
-        "processor1_k17": "processor1_v17",
-        "processor1_k18": "processor1_v18",
-        "processor1_k19": "processor1_v19",
-        "processor1_k20": "processor1_v20"
-      },
-      "price": 1000,
-      "group": 1,
-      "group_id": 0,
-      "part_image": "./assets/images/parts/processor.jpg"
+      "image_left": "115px"
     },
     {
       "id": 1,
+      "name": "Intel Pentium G4400",
+      "image": "./assets/images/parts/processors/intel_pentium_g4400.jpg",
+      "characteristics": {
+        "Модель": "Intel Pentium G4400",
+        "Сокет": "LGA 1151",
+        "Количество ядер": "2",
+        "Базовая частота процессора": "3300 МГц",
+        "Тип памяти": "DDR4, DDR3L",
+        "Максимально поддерживаемый объем памяти": "64 ГБ",
+        "Количество каналов": "2",
+        "Максимальная частота оперативной памяти": "2133 МГц",
+        "Тепловыделение (TDP)": "54 Вт",
+        "Интегрированное графическое ядро": "есть",
+        "Модель графического процессора": "Intel HD Graphics 510",
+        "Цена": "6 699 рублей"
+      },
+      "price": 6699,
+      "group": 1,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/vector/processor.jpg",
       "image_width": "65px",
       "image_height": "65px",
       "image_top": "143px",
-      "image_left": "115px",
-      "name": "processor2",
-      "image": "https://place-hold.it/512x512&text=processor2&fontsize=35",
-      "characteristics": {
-        "processor2_k1": "processor2_v1",
-        "processor2_k2": "processor2_v2",
-        "processor2_k3": "processor2_v3",
-        "processor2_k4": "processor2_v4"
-      },
-      "price": 2000,
-      "group": 1,
-      "group_id": 1,
-      "part_image": "./assets/images/parts/processor.jpg"
+      "image_left": "115px"
     },
     {
       "id": 2,
+      "name": "AMD Ryzen 5 3500X",
+      "image": "./assets/images/parts/processors/amd_ryzen5_3500x.jpg",
+      "characteristics": {
+        "Модель": "AMD Ryzen 5 3500X",
+        "Сокет": "AM4",
+        "Количество ядер": "6",
+        "Базовая частота процессора": "3600 МГц",
+        "Тип памяти": "DDR4",
+        "Максимально поддерживаемый объем памяти": "128 ГБ",
+        "Количество каналов": "2",
+        "Максимальная частота оперативной памяти": "3200 МГц",
+        "Тепловыделение (TDP)": "65 Вт",
+        "Интегрированное графическое ядро": "нет",
+        "Модель графического процессора": "нет",
+        "Цена": "11 399 рублей"
+      },
+      "price": 11399,
+      "group": 2,
+      "group_id": 0,
+      "part_image": "./assets/images/parts/vector/processor.jpg",
       "image_width": "65px",
       "image_height": "65px",
       "image_top": "143px",
-      "image_left": "115px",
-      "name": "processor3",
-      "image": "https://place-hold.it/512x512&text=processor3&fontsize=35",
-      "characteristics": {
-        "processor3_k1": "processor3_v1",
-        "processor3_k2": "processor3_v2",
-        "processor3_k3": "processor3_v3",
-        "processor3_k4": "processor3_v4"
-      },
-      "price": 3000,
-      "group": 2,
-      "group_id": 0,
-      "part_image": "./assets/images/parts/processor.jpg"
+      "image_left": "115px"
     },
     {
       "id": 3,
+      "name": "Intel Core i7-9700KF",
+      "image": "./assets/images/parts/processors/intel_corei7_9700KF.jpg",
+      "characteristics": {
+        "Модель": "Intel Core i7-9700KF",
+        "Сокет": "LGA 1151-v2",
+        "Количество ядер": "8",
+        "Базовая частота процессора": "3600 МГц",
+        "Тип памяти": "DDR4",
+        "Максимально поддерживаемый объем памяти": "128 ГБ",
+        "Количество каналов": "2",
+        "Максимальная частота оперативной памяти": "2666 МГц",
+        "Тепловыделение (TDP)": "95 Вт",
+        "Интегрированное графическое ядро": "нет",
+        "Модель графического процессора": "нет",
+        "Цена": "24 999 рублей"
+      },
+      "price": 24999,
+      "group": 2,
+      "group_id": 1,
+      "part_image": "./assets/images/parts/vector/processor.jpg",
       "image_width": "65px",
       "image_height": "65px",
       "image_top": "143px",
-      "image_left": "115px",
-      "name": "processor4",
-      "image": "https://place-hold.it/512x512&text=processor4&fontsize=35",
-      "characteristics": {
-        "processor4_k1": "processor4_v1",
-        "processor4_k2": "processor4_v2",
-        "processor4_k3": "processor4_v3",
-        "processor4_k4": "processor4_v4"
-      },
-      "price": 4000,
-      "group": 2,
-      "group_id": 1,
-      "part_image": "./assets/images/parts/processor.jpg"
+      "image_left": "115px"
     },
     {
       "id": 4,
-      "image_width": "68px",
-      "image_height": "68px",
-      "image_top": "138px",
-      "image_left": "117px",
-      "name": "processor5",
-      "image": "https://place-hold.it/512x512&text=processor5&fontsize=35",
+      "name": "AMD Ryzen 9 5950X",
+      "image": "./assets/images/parts/processors/amd_ryzen9_5950X.jpg",
       "characteristics": {
-        "processor1_k1": "processor5_v1",
-        "processor1_k2": "processor5_v2",
-        "processor1_k3": "processor5_v3",
-        "processor1_k4": "processor5_v4"
+        "Модель": "AMD Ryzen 9 5950X",
+        "Сокет": "AM4",
+        "Количество ядер": "16",
+        "Базовая частота процессора": "3400 МГц",
+        "Тип памяти": "DDR4",
+        "Максимально поддерживаемый объем памяти": "128 ГБ",
+        "Количество каналов": "2",
+        "Максимальная частота оперативной памяти": "3200 МГц",
+        "Тепловыделение (TDP)": "105 Вт",
+        "Интегрированное графическое ядро": "нет",
+        "Модель графического процессора": "нет",
+        "Цена": "79 999 рублей"
       },
-      "price": 1000,
-      "group": 1,
+      "price": 79999,
+      "group": 3,
       "group_id": 0,
-      "part_image": "./assets/images/parts/processor.jpg"
-    },
-    {
-      "id": 5,
-      "image_width": "68px",
-      "image_height": "68px",
-      "image_top": "138px",
-      "image_left": "117px",
-      "name": "processor2",
-      "image": "https://place-hold.it/512x512&text=processor2&fontsize=35",
-      "characteristics": {
-        "processor2_k1": "processor2_v1",
-        "processor2_k2": "processor2_v2",
-        "processor2_k3": "processor2_v3",
-        "processor2_k4": "processor2_v4"
-      },
-      "price": 2000,
-      "group": 1,
-      "group_id": 1,
-      "part_image": "./assets/images/parts/processor.jpg"
-    },
-    {
-      "id": 6,
-      "image_width": "68px",
-      "image_height": "68px",
-      "image_top": "138px",
-      "image_left": "117px",
-      "name": "processor3",
-      "image": "https://place-hold.it/512x512&text=processor3&fontsize=35",
-      "characteristics": {
-        "processor3_k1": "processor3_v1",
-        "processor3_k2": "processor3_v2",
-        "processor3_k3": "processor3_v3",
-        "processor3_k4": "processor3_v4"
-      },
-      "price": 3000,
-      "group": 2,
-      "group_id": 0,
-      "part_image": "./assets/images/parts/processor.jpg"
-    },
-    {
-      "id": 7,
-      "image_width": "68px",
-      "image_height": "68px",
-      "image_top": "138px",
-      "image_left": "117px",
-      "name": "processor4",
-      "image": "https://place-hold.it/512x512&text=processor4&fontsize=35",
-      "characteristics": {
-        "processor4_k1": "processor4_v1",
-        "processor4_k2": "processor4_v2",
-        "processor4_k3": "processor4_v3",
-        "processor4_k4": "processor4_v4"
-      },
-      "price": 4000,
-      "group": 2,
-      "group_id": 1,
-      "part_image": "./assets/images/parts/processor.jpg"
-    },
-    {
-      "id": 8,
-      "image_width": "68px",
-      "image_height": "68px",
-      "image_top": "138px",
-      "image_left": "117px",
-      "name": "processor1",
-      "image": "https://place-hold.it/512x512&text=processor1&fontsize=35",
-      "characteristics": {
-        "processor1_k1": "processor1_v1",
-        "processor1_k2": "processor1_v2",
-        "processor1_k3": "processor1_v3",
-        "processor1_k4": "processor1_v4"
-      },
-      "price": 1000,
-      "group": 1,
-      "group_id": 0,
-      "part_image": "./assets/images/parts/processor.jpg"
-    },
-    {
-      "id": 9,
-      "image_width": "68px",
-      "image_height": "68px",
-      "image_top": "138px",
-      "image_left": "117px",
-      "name": "processor2",
-      "image": "https://place-hold.it/512x512&text=processor2&fontsize=35",
-      "characteristics": {
-        "processor2_k1": "processor2_v1",
-        "processor2_k2": "processor2_v2",
-        "processor2_k3": "processor2_v3",
-        "processor2_k4": "processor2_v4"
-      },
-      "price": 2000,
-      "group": 1,
-      "group_id": 1,
-      "part_image": "./assets/images/parts/processor.jpg"
-    },
-    {
-      "id": 10,
-      "image_width": "68px",
-      "image_height": "68px",
-      "image_top": "138px",
-      "image_left": "117px",
-      "name": "processor3",
-      "image": "https://place-hold.it/512x512&text=processor3&fontsize=35",
-      "characteristics": {
-        "processor3_k1": "processor3_v1",
-        "processor3_k2": "processor3_v2",
-        "processor3_k3": "processor3_v3",
-        "processor3_k4": "processor3_v4"
-      },
-      "price": 3000,
-      "group": 2,
-      "group_id": 0,
-      "part_image": "./assets/images/parts/processor.jpg"
-    },
-    {
-      "id": 11,
-      "image_width": "68px",
-      "image_height": "68px",
-      "image_top": "138px",
-      "image_left": "117px",
-      "name": "processor4",
-      "image": "https://place-hold.it/512x512&text=processor4&fontsize=35",
-      "characteristics": {
-        "processor4_k1": "processor4_v1",
-        "processor4_k2": "processor4_v2",
-        "processor4_k3": "processor4_v3",
-        "processor4_k4": "processor4_v4"
-      },
-      "price": 4000,
-      "group": 2,
-      "group_id": 1,
-      "part_image": "./assets/images/parts/processor.jpg"
+      "part_image": "./assets/images/parts/vector/processor.jpg",
+      "image_width": "65px",
+      "image_height": "65px",
+      "image_top": "143px",
+      "image_left": "115px"
     }
   ],
   "motherboard": [
@@ -263,7 +154,7 @@
       "price": 1000,
       "group": 1,
       "group_id": 0,
-      "part_image": "./assets/images/parts/motherboard.png"
+      "part_image": "./assets/images/parts/vector/motherboard.png"
     },
     {
       "id": 1,
@@ -282,7 +173,7 @@
       "price": 2000,
       "group": 1,
       "group_id": 1,
-      "part_image": "./assets/images/parts/motherboard.png",
+      "part_image": "./assets/images/parts/vector/motherboard.png",
       "validation": {
         "processor": {
           "processor2_k1": ["processor2_v1"]
@@ -306,7 +197,7 @@
       "price": 3000,
       "group": 2,
       "group_id": 0,
-      "part_image": "./assets/images/parts/motherboard.png",
+      "part_image": "./assets/images/parts/vector/motherboard.png",
       "validation": {
         "processor": {
           "processor3_k1": ["processor3_v1"]
@@ -330,7 +221,7 @@
       "price": 4000,
       "group": 2,
       "group_id": 1,
-      "part_image": "./assets/images/parts/motherboard.png",
+      "part_image": "./assets/images/parts/vector/motherboard.png",
       "validation": {
         "processor": {
           "processor4_k1": ["processor4_v1"]
@@ -356,7 +247,7 @@
       "price": 1000,
       "group": 1,
       "group_id": 0,
-      "part_image": "./assets/images/parts/case.jpg",
+      "part_image": "./assets/images/parts/vector/case.jpg",
       "validation": {
         "motherboard": {
           "motherboard1_k1": ["motherboard1_v1"]
@@ -380,7 +271,7 @@
       "price": 2000,
       "group": 1,
       "group_id": 1,
-      "part_image": "./assets/images/parts/case.jpg",
+      "part_image": "./assets/images/parts/vector/case.jpg",
       "validation": {
         "motherboard": {
           "motherboard2_k1": ["motherboard2_v1"]
@@ -404,7 +295,7 @@
       "price": 3000,
       "group": 2,
       "group_id": 0,
-      "part_image": "./assets/images/parts/case.jpg",
+      "part_image": "./assets/images/parts/vector/case.jpg",
       "validation": {
         "motherboard": {
           "motherboard3_k1": ["motherboard3_v1"]
@@ -428,7 +319,7 @@
       "price": 4000,
       "group": 2,
       "group_id": 1,
-      "part_image": "./assets/images/parts/case.jpg",
+      "part_image": "./assets/images/parts/vector/case.jpg",
       "validation": {
         "motherboard": {
           "motherboard4_k1": ["motherboard4_v1"]
@@ -454,7 +345,7 @@
       "price": 1000,
       "group": 1,
       "group_id": 0,
-      "part_image": "./assets/images/parts/cooling.png",
+      "part_image": "./assets/images/parts/vector/cooling.png",
       "validation": {
         "case": {
           "case1_k1": ["case1_v1"]
@@ -478,7 +369,7 @@
       "price": 2000,
       "group": 1,
       "group_id": 1,
-      "part_image": "./assets/images/parts/cooling.png",
+      "part_image": "./assets/images/parts/vector/cooling.png",
       "validation": {
         "case": {
           "case2_k1": ["case2_v1"]
@@ -502,7 +393,7 @@
       "price": 3000,
       "group": 2,
       "group_id": 0,
-      "part_image": "./assets/images/parts/cooling.png",
+      "part_image": "./assets/images/parts/vector/cooling.png",
       "validation": {
         "case": {
           "case3_k1": ["case3_v1"]
@@ -526,7 +417,7 @@
       "price": 4000,
       "group": 2,
       "group_id": 1,
-      "part_image": "./assets/images/parts/cooling.png",
+      "part_image": "./assets/images/parts/vector/cooling.png",
       "validation": {
         "case": {
           "case4_k1": ["case4_v1"]
@@ -552,7 +443,7 @@
       "price": 1000,
       "group": 1,
       "group_id": 0,
-      "part_image": "./assets/images/parts/ram.jpg",
+      "part_image": "./assets/images/parts/vector/ram.jpg",
       "validation": {
         "cooling": {
           "cooling1_k1": ["cooling1_v1"]
@@ -576,7 +467,7 @@
       "price": 2000,
       "group": 1,
       "group_id": 1,
-      "part_image": "./assets/images/parts/ram.jpg",
+      "part_image": "./assets/images/parts/vector/ram.jpg",
       "validation": {
         "cooling": {
           "cooling2_k1": ["cooling2_v1"]
@@ -600,7 +491,7 @@
       "price": 3000,
       "group": 2,
       "group_id": 0,
-      "part_image": "./assets/images/parts/ram.jpg",
+      "part_image": "./assets/images/parts/vector/ram.jpg",
       "validation": {
         "cooling": {
           "cooling3_k1": ["cooling3_v1"]
@@ -624,7 +515,7 @@
       "price": 4000,
       "group": 2,
       "group_id": 1,
-      "part_image": "./assets/images/parts/ram.jpg",
+      "part_image": "./assets/images/parts/vector/ram.jpg",
       "validation": {
         "cooling": {
           "cooling4_k1": ["cooling4_v1"]
@@ -650,7 +541,7 @@
       "price": 1000,
       "group": 1,
       "group_id": 0,
-      "part_image": "./assets/images/parts/video_card.png",
+      "part_image": "./assets/images/parts/vector/video_card.png",
       "validation": {
         "ram": {
           "ram1_k1": ["ram1_v1"]
@@ -674,7 +565,7 @@
       "price": 2000,
       "group": 1,
       "group_id": 1,
-      "part_image": "./assets/images/parts/video_card.png",
+      "part_image": "./assets/images/parts/vector/video_card.png",
       "validation": {
         "ram": {
           "ram2_k1": ["ram2_v1"]
@@ -698,7 +589,7 @@
       "price": 3000,
       "group": 2,
       "group_id": 0,
-      "part_image": "./assets/images/parts/video_card.png",
+      "part_image": "./assets/images/parts/vector/video_card.png",
       "validation": {
         "ram": {
           "ram3_k1": ["ram3_v1"]
@@ -722,7 +613,7 @@
       "price": 4000,
       "group": 2,
       "group_id": 1,
-      "part_image": "./assets/images/parts/video_card.png",
+      "part_image": "./assets/images/parts/vector/video_card.png",
       "validation": {
         "ram": {
           "ram4_k1": ["ram4_v1"]
@@ -748,7 +639,7 @@
       "price": 1000,
       "group": 1,
       "group_id": 0,
-      "part_image": "./assets/images/parts/hard_drive.png",
+      "part_image": "./assets/images/parts/vector/hard_drive.png",
       "validation": {
         "video_card": {
           "video_card1_k1": ["video_card1_v1"]
@@ -772,7 +663,7 @@
       "price": 2000,
       "group": 1,
       "group_id": 1,
-      "part_image": "./assets/images/parts/hard_drive.png",
+      "part_image": "./assets/images/parts/vector/hard_drive.png",
       "validation": {
         "video_card": {
           "video_card2_k1": ["video_card2_v1"]
@@ -796,7 +687,7 @@
       "price": 3000,
       "group": 2,
       "group_id": 0,
-      "part_image": "./assets/images/parts/hard_drive.png",
+      "part_image": "./assets/images/parts/vector/hard_drive.png",
       "validation": {
         "video_card": {
           "video_card3_k1": ["video_card3_v1"]
@@ -820,7 +711,7 @@
       "price": 4000,
       "group": 2,
       "group_id": 1,
-      "part_image": "./assets/images/parts/hard_drive.png",
+      "part_image": "./assets/images/parts/vector/hard_drive.png",
       "validation": {
         "video_card": {
           "video_card4_k1": ["video_card4_v1"]
@@ -846,7 +737,7 @@
       "price": 1000,
       "group": 1,
       "group_id": 0,
-      "part_image": "./assets/images/parts/ssd.png",
+      "part_image": "./assets/images/parts/vector/ssd.png",
       "validation": {
         "hard_drive": {
           "hard_drive1_k1": ["hard_drive1_v1"]
@@ -870,7 +761,7 @@
       "price": 2000,
       "group": 1,
       "group_id": 1,
-      "part_image": "./assets/images/parts/ssd.png",
+      "part_image": "./assets/images/parts/vector/ssd.png",
       "validation": {
         "hard_drive": {
           "hard_drive2_k1": ["hard_drive2_v1"]
@@ -894,7 +785,7 @@
       "price": 3000,
       "group": 2,
       "group_id": 0,
-      "part_image": "./assets/images/parts/ssd.png",
+      "part_image": "./assets/images/parts/vector/ssd.png",
       "validation": {
         "hard_drive": {
           "hard_drive3_k1": ["hard_drive3_v1"]
@@ -918,7 +809,7 @@
       "price": 4000,
       "group": 2,
       "group_id": 1,
-      "part_image": "./assets/images/parts/ssd.png",
+      "part_image": "./assets/images/parts/vector/ssd.png",
       "validation": {
         "hard_drive": {
           "hard_drive4_k1": ["hard_drive4_v1"]
@@ -944,7 +835,7 @@
       "price": 1000,
       "group": 1,
       "group_id": 0,
-      "part_image": "./assets/images/parts/power_supply.jpg",
+      "part_image": "./assets/images/parts/vector/power_supply.jpg",
       "validation": {
         "ssd": {
           "ssd1_k1": ["ssd1_v1"]
@@ -968,7 +859,7 @@
       "price": 2000,
       "group": 1,
       "group_id": 1,
-      "part_image": "./assets/images/parts/power_supply.jpg",
+      "part_image": "./assets/images/parts/vector/power_supply.jpg",
       "validation": {
         "ssd": {
           "ssd2_k1": ["ssd2_v1"]
@@ -992,7 +883,7 @@
       "price": 3000,
       "group": 2,
       "group_id": 0,
-      "part_image": "./assets/images/parts/power_supply.jpg",
+      "part_image": "./assets/images/parts/vector/power_supply.jpg",
       "validation": {
         "ssd": {
           "ssd3_k1": ["ssd3_v1"]
@@ -1016,7 +907,7 @@
       "price": 4000,
       "group": 2,
       "group_id": 1,
-      "part_image": "./assets/images/parts/power_supply.jpg",
+      "part_image": "./assets/images/parts/vector/power_supply.jpg",
       "validation": {
         "ssd": {
           "ssd4_k1": ["ssd4_v1"]
