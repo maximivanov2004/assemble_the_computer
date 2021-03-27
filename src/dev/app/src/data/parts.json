@@ -139,94 +139,238 @@
   "motherboard": [
     {
       "id": 0,
+      "name": "ASRock B450M-HDV R4.0",
+      "image": "./assets/images/parts/motherboards/asrock_b450m_hdv.jpg",
+      "characteristics": {
+        "Модель": "ASRock B450M-HDV R4.0",
+        "Форм-фактор": "Micro-ATX",
+        "Сокет": "AM4",
+        "Чипсет": "AMD B450",
+        "Тип поддерживаемой памяти": "DDR4",
+        "Количество слотов памяти": "2",
+        "Максимальная частота памяти": "3200 МГц",
+        "Количество каналов памяти": "2",
+        "Максимальный объем памяти": "32 ГБ",
+        "Тип и количество портов SATA": "4x SATA 6Gb/s",
+        "Количество разъемов M.2": "1",
+        "Количество слотов PCI-E x16": "1",
+        "Количество слотов PCI-E x8": "нет",
+        "Количество слотов PCI-E x4": "нет",
+        "Количество слотов PCI-E x1": "1",
+        "Режимы работы нескольких PCI-E x16 слотов": "нет",
+        "Версия PCI Express": "3.0",
+        "Количество и тип USB на задней панели": "2 x USB 2.0, 4 x USB 3.2 Gen1 Type A",
+        "Видео выходы": "1x VGA (D-Sub), 1x HDMI, 1x DVI-D",
+        "Количество аналоговых аудио разъемов": "3",
+        "Другие разъемы на задней панели": "нет",
+        "Звук": "Realtek HD Audio",
+        "Чипсет сетевого адаптера": "Realtek RTL8111H",
+        "Скорость сетевого адаптера": "1000 Мбит/с",
+        "Встроенный адаптер Wi-Fi": "нет",
+        "Bluetooth": "нет",
+        "Цена": "4 450 рублей"
+      },
+      "price": 4450,
+      "group": 1,
+      "group_id": 0,
+      "validation": {
+        "processor": {
+          "Сокет": ["AM4"]
+        }
+      },
       "image_width": "300px",
       "image_height": "350px",
       "image_top": "120px",
       "image_left": "10px",
-      "name": "motherboard1",
-      "image": "https://place-hold.it/512x512&text=motherboard1&fontsize=35",
-      "characteristics": {
-        "motherboard1_k1": "motherboard1_v1",
-        "motherboard1_k2": "motherboard1_v2",
-        "motherboard1_k3": "motherboard1_v3",
-        "motherboard1_k4": "motherboard1_v4"
-      },
-      "price": 1000,
-      "group": 1,
-      "group_id": 0,
       "part_image": "./assets/images/parts/vector/motherboard.png"
     },
     {
       "id": 1,
+      "name": "ASRock H110M-DGS R3.0",
+      "image": "./assets/images/parts/motherboards/asrock_h110m_dgs.jpg",
+      "characteristics": {
+        "Модель": "ASRock H110M-DGS R3.0",
+        "Форм-фактор": "Micro-ATX",
+        "Сокет": "LGA 1151",
+        "Чипсет": "Intel H110",
+        "Тип поддерживаемой памяти": "DDR4",
+        "Количество слотов памяти": "2",
+        "Максимальная частота памяти": "2133 МГц",
+        "Количество каналов памяти": "2",
+        "Максимальный объем памяти": "32 ГБ",
+        "Тип и количество портов SATA": "4x SATA 6Gb/s",
+        "Количество разъемов M.2": "нет",
+        "Количество слотов PCI-E x16": "1",
+        "Количество слотов PCI-E x8": "нет",
+        "Количество слотов PCI-E x4": "нет",
+        "Количество слотов PCI-E x1": "1",
+        "Режимы работы нескольких PCI-E x16 слотов": "нет",
+        "Версия PCI Express": "3.0",
+        "Количество и тип USB на задней панели": "4 x USB 2.0, 2 x USB 3.2 Gen1 Type A",
+        "Видео выходы": "1x DVI-D",
+        "Количество аналоговых аудио разъемов": "3",
+        "Другие разъемы на задней панели": "нет",
+        "Звук": "Realtek HD Audio",
+        "Чипсет сетевого адаптера": "Realtek RTL8111C/RTL8111H",
+        "Скорость сетевого адаптера": "1000 Мбит/с",
+        "Встроенный адаптер Wi-Fi": "нет",
+        "Bluetooth": "нет",
+        "Цена": "4 499 рублей"
+      },
+      "price": 4499,
+      "group": 1,
+      "group_id": 1,
+      "validation": {
+        "processor": {
+          "Сокет": ["LGA 1151"]
+        }
+      },
       "image_width": "300px",
       "image_height": "350px",
       "image_top": "120px",
       "image_left": "10px",
-      "name": "motherboard2",
-      "image": "https://place-hold.it/512x512&text=motherboard2&fontsize=35",
-      "characteristics": {
-        "motherboard2_k1": "motherboard2_v1",
-        "motherboard2_k2": "motherboard2_v2",
-        "motherboard2_k3": "motherboard2_v3",
-        "motherboard2_k4": "motherboard2_v4"
-      },
-      "price": 2000,
-      "group": 1,
-      "group_id": 1,
-      "part_image": "./assets/images/parts/vector/motherboard.png",
-      "validation": {
-        "processor": {
-          "processor2_k1": ["processor2_v1"]
-        }
-      }
+      "part_image": "./assets/images/parts/vector/motherboard.png"
     },
     {
       "id": 2,
+      "name": "MSI B450 GAMING PLUS MAX",
+      "image": "./assets/images/parts/motherboards/msi_b450_gaming_plus_max.jpg",
+      "characteristics": {
+        "Модель": "MSI B450 GAMING PLUS MAX",
+        "Форм-фактор": "Standard-ATX",
+        "Сокет": "AM4",
+        "Чипсет": "AMD B450",
+        "Тип поддерживаемой памяти": "DDR4",
+        "Количество слотов памяти": "4",
+        "Максимальная частота памяти": "4133 МГц",
+        "Количество каналов памяти": "2",
+        "Максимальный объем памяти": "64 ГБ",
+        "Тип и количество портов SATA": "6x SATA 6Gb/s",
+        "Количество разъемов M.2": "1",
+        "Количество слотов PCI-E x16": "2",
+        "Количество слотов PCI-E x8": "нет",
+        "Количество слотов PCI-E x4": "нет",
+        "Количество слотов PCI-E x1": "4",
+        "Режимы работы нескольких PCI-E x16 слотов": "16-4, 16-0",
+        "Версия PCI Express": "3.0",
+        "Количество и тип USB на задней панели": "2 x USB 3.2 Gen2 Type A, 2 x USB 3.2 Gen1 Type A, 2 x USB",
+        "Видео выходы": "1x HDMI, 1x DVI-D",
+        "Количество аналоговых аудио разъемов": "6",
+        "Другие разъемы на задней панели": "нет",
+        "Звук": "Realtek HD Audio",
+        "Чипсет сетевого адаптера": "Realtek RTL8111H",
+        "Скорость сетевого адаптера": "1000 Мбит/с",
+        "Встроенный адаптер Wi-Fi": "нет",
+        "Bluetooth": "нет",
+        "Цена": "7 999 рублей"
+      },
+      "price": 7999,
+      "group": 2,
+      "group_id": 0,
+      "validation": {
+        "processor": {
+          "Сокет": ["AM4"]
+        }
+      },
       "image_width": "300px",
       "image_height": "350px",
       "image_top": "120px",
       "image_left": "10px",
-      "name": "motherboard3",
-      "image": "https://place-hold.it/512x512&text=motherboard3&fontsize=35",
-      "characteristics": {
-        "motherboard3_k1": "motherboard3_v1",
-        "motherboard3_k2": "motherboard3_v2",
-        "motherboard3_k3": "motherboard3_v3",
-        "motherboard3_k4": "motherboard3_v4"
-      },
-      "price": 3000,
-      "group": 2,
-      "group_id": 0,
-      "part_image": "./assets/images/parts/vector/motherboard.png",
-      "validation": {
-        "processor": {
-          "processor3_k1": ["processor3_v1"]
-        }
-      }
+      "part_image": "./assets/images/parts/vector/motherboard.png"
     },
     {
       "id": 3,
+      "name": "ASUS ROG STRIX Z390-F GAMING",
+      "image": "./assets/images/parts/motherboards/asus_rog_strix_z390f_gaming.jpg",
+      "characteristics": {
+        "Модель": "ASUS ROG STRIX Z390-F GAMING",
+        "Форм-фактор": "Standard-ATX",
+        "Сокет": "LGA 1151-v2",
+        "Чипсет": "Intel Z390",
+        "Тип поддерживаемой памяти": "DDR4",
+        "Количество слотов памяти": "4",
+        "Максимальная частота памяти": "4266 МГц",
+        "Количество каналов памяти": "2",
+        "Максимальный объем памяти": "64 ГБ",
+        "Тип и количество портов SATA": "6x SATA 6Gb/s",
+        "Количество разъемов M.2": "2",
+        "Количество слотов PCI-E x16": "3",
+        "Количество слотов PCI-E x8": "нет",
+        "Количество слотов PCI-E x4": "нет",
+        "Количество слотов PCI-E x1": "3",
+        "Режимы работы нескольких PCI-E x16 слотов": "8-8-4, 8-8-0, 16-0-0",
+        "Версия PCI Express": "3.0",
+        "Количество и тип USB на задней панели": "3 x USB 3.2 Gen2 Type A, 2 x USB 3.2 Gen1 Type A, 2 x USB 2.0, 1 x USB 3.2 Gen2 Type C",
+        "Видео выходы": "1x DisplayPort, 1x HDMI",
+        "Количество аналоговых аудио разъемов": "5",
+        "Другие разъемы на задней панели": "нет",
+        "Звук": "SupremeFX",
+        "Чипсет сетевого адаптера": "Intel I219V",
+        "Скорость сетевого адаптера": "1000 Мбит/с",
+        "Встроенный адаптер Wi-Fi": "нет",
+        "Bluetooth": "нет",
+        "Цена": "16 599 рублей"
+      },
+      "price": 16599,
+      "group": 2,
+      "group_id": 1,
+      "validation": {
+        "processor": {
+          "Сокет": ["LGA 1151-v2"]
+        }
+      },
       "image_width": "300px",
       "image_height": "350px",
       "image_top": "120px",
       "image_left": "10px",
-      "name": "motherboard4",
-      "image": "https://place-hold.it/512x512&text=motherboard4&fontsize=35",
+      "part_image": "./assets/images/parts/vector/motherboard.png"
+    },
+    {
+      "id": 4,
+      "name": "MSI MAG X570 TOMAHAWK WIFI",
+      "image": "./assets/images/parts/motherboards/msi_mag_x570_tomahawk.jpg",
       "characteristics": {
-        "motherboard4_k1": "motherboard4_v1",
-        "motherboard4_k2": "motherboard4_v2",
-        "motherboard4_k3": "motherboard4_v3",
-        "motherboard4_k4": "motherboard4_v4"
+        "Модель": "MSI MAG X570 TOMAHAWK WIFI",
+        "Форм-фактор": "Standard-ATX",
+        "Сокет": "AM4",
+        "Чипсет": "AMD X570",
+        "Тип поддерживаемой памяти": "DDR4",
+        "Количество слотов памяти": "4",
+        "Максимальная частота памяти": "4600 МГц",
+        "Количество каналов памяти": "2",
+        "Максимальный объем памяти": "128 ГБ",
+        "Тип и количество портов SATA": "6x SATA 6Gb/s",
+        "Количество разъемов M.2": "2",
+        "Количество слотов PCI-E x16": "2",
+        "Количество слотов PCI-E x8": "нет",
+        "Количество слотов PCI-E x4": "нет",
+        "Количество слотов PCI-E x1": "2",
+        "Режимы работы нескольких PCI-E x16 слотов": "16-0, 16-4",
+        "Версия PCI Express": "4.0",
+        "Количество и тип USB на задней панели": "2 x USB 3.2 Gen1 Type A, 3 x USB 3.2 Gen2 Type A, 2 x USB 2.0, 1 x USB 3.2 Gen2 Type C",
+        "Видео выходы": "1x HDMI",
+        "Количество аналоговых аудио разъемов": "5",
+        "Другие разъемы на задней панели": "2x для антенны Wi-Fi",
+        "Звук": "Realtek HD Audio",
+        "Чипсет сетевого адаптера": "Realtek RTL8125B",
+        "Скорость сетевого адаптера": "2500 Мбит/с",
+        "Встроенный адаптер Wi-Fi": "есть",
+        "Bluetooth": "есть",
+        "Цена": "17 999 рублей"
       },
-      "price": 4000,
-      "group": 2,
-      "group_id": 1,
-      "part_image": "./assets/images/parts/vector/motherboard.png",
+      "price": 17999,
+      "group": 3,
+      "group_id": 0,
       "validation": {
         "processor": {
-          "processor4_k1": ["processor4_v1"]
+          "Сокет": ["AM4"]
         }
-      }
+      },
+      "image_width": "300px",
+      "image_height": "350px",
+      "image_top": "120px",
+      "image_left": "10px",
+      "part_image": "./assets/images/parts/vector/motherboard.png"
     }
   ],
   "case": [
