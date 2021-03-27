@@ -38,11 +38,13 @@ export default {
   font-size: 22px;
   font-weight: 300;
 }
+.part-info__item span {
+  padding: 0 10px;
+}
 .part-info__item:first-child {
   border-top: 2px solid #ccc;
 }
 .part-info__item span:last-child {
-  padding-left: 10px;
   background: #eee;
 }
 
