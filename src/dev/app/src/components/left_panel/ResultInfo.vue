@@ -52,6 +52,8 @@ export default {
       const task = tasks.find((task) => task.id === this.activeTask);
       const part = parts[partName].find((part) => part.id === partId);
 
+      if (task.parts_group === 0) return 1;
+
       if (part.group !== task.parts_group) {
         return 0;
       } else {
@@ -66,6 +68,8 @@ export default {
 
       const task = tasks.find((task) => task.id === this.activeTask);
       const part = parts[partName].find((part) => part.id === partId);
+
+      if (task.parts_group === 0) return 1;
 
       if (part.group !== task.parts_group) {
         return 0;
