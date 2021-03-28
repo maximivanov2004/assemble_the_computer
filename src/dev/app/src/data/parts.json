@@ -816,6 +816,7 @@
         "Модель": "Corsair iCUE H150i RGB PRO XT",
         "Сокет": "LGA 1200, LGA 2066, TR4, LGA 1151-v2, sTRX4, AM4, LGA 1150, LGA 1156, AM3, LGA 1155, AM2, LGA 2011, LGA 2011-v3, LGA 1151",
         "Рассеиваемая мощность": "400 Вт",
+        "Водоблок совмещен с помпой": "да",
         "Материал водоблока": "медь",
         "Материал радиатора": "алюминий",
         "Разъем для подключения вентиляторов": "4-pin",
@@ -826,8 +827,8 @@
         "Минимальная скорость вращения": "2400 об/мин",
         "Регулировка скорости вращения": "автоматическая",
         "Максимальный уровень шума": "37 дБ",
-        "Тип подсветки вентилятора": "нет",
-        "Термопаста в комплекте": "в отдельной емкости",
+        "Тип подсветки": "ARGB",
+        "Разъем подключения подсветки": "9-pin USB 2.0",
         "Длина радиатора": "397 мм",
         "Ширина радиатора": "120 мм",
         "Толщина радиатора": "27 мм",
@@ -873,99 +874,141 @@
   "ram": [
     {
       "id": 0,
+      "name": "Crucial 8 ГБ",
+      "image": "./assets/images/parts/ram/Crucial_8gb.jpg",
+      "characteristics": {
+        "Модель": "Crucial 8 ГБ",
+        "Тип памяти": "DDR4",
+        "Форм-фактор памяти": "DIMM",
+        "Объем одного модуля памяти": "8 ГБ",
+        "Количество модулей в комплекте": "1 шт",
+        "Тактовая частота": "2400 МГц",
+        "Пропускная способность": "PC19200",
+        "Поддерживаемые режимы работы": "2400 МГц, 2133 МГц, 1866 МГц, 1600 МГц",
+        "Подсветка элементов платы": "нет",
+        "Цена": "3 399 рублей"
+      },
+      "price": 3399,
+      "group": 1,
+      "group_id": 0,
+      "validation": {},
       "image_width": "5px",
       "image_height": "157px",
       "image_top": "134px",
       "image_left": "228px",
-      "name": "ram1",
-      "image": "https://place-hold.it/512x512&text=ram1&fontsize=35",
-      "characteristics": {
-        "ram1_k1": "ram1_v1",
-        "ram1_k2": "ram1_v2",
-        "ram1_k3": "ram1_v3",
-        "ram1_k4": "ram1_v4"
-      },
-      "price": 1000,
-      "group": 1,
-      "group_id": 0,
-      "part_image": "./assets/images/parts/vector/ram.jpg",
-      "validation": {
-        "cooling": {
-          "cooling1_k1": ["cooling1_v1"]
-        }
-      }
+      "part_image": "./assets/images/parts/vector/ram.jpg"
     },
     {
       "id": 1,
+      "name": "Patriot Signature Line 8 ГБ",
+      "image": "./assets/images/parts/ram/Patriot_Signature_Line_8gb.jpg",
+      "characteristics": {
+        "Модель": "Patriot Signature Line 8 ГБ",
+        "Тип памяти": "DDR4",
+        "Форм-фактор памяти": "DIMM",
+        "Объем одного модуля памяти": "4 ГБ",
+        "Количество модулей в комплекте": "2 шт",
+        "Тактовая частота": "2666 МГц",
+        "Пропускная способность": "PC21300",
+        "Поддерживаемые режимы работы": "2666 МГц, 2400 МГц, 2133 МГц, 1866 МГц, 1600 МГц",
+        "Подсветка элементов платы": "нет",
+        "Цена": "3 899 рублей"
+      },
+      "price": 3899,
+      "group": 1,
+      "group_id": 1,
+      "validation": {},
       "image_width": "5px",
       "image_height": "157px",
       "image_top": "134px",
       "image_left": "228px",
-      "name": "ram2",
-      "image": "https://place-hold.it/512x512&text=ram2&fontsize=35",
-      "characteristics": {
-        "ram2_k1": "ram2_v1",
-        "ram2_k2": "ram2_v2",
-        "ram2_k3": "ram2_v3",
-        "ram2_k4": "ram2_v4"
-      },
-      "price": 2000,
-      "group": 1,
-      "group_id": 1,
-      "part_image": "./assets/images/parts/vector/ram.jpg",
-      "validation": {
-        "cooling": {
-          "cooling2_k1": ["cooling2_v1"]
-        }
-      }
+      "part_image": "./assets/images/parts/vector/ram.jpg"
     },
     {
       "id": 2,
+      "name": "HyperX FURY Black 16 ГБ",
+      "image": "./assets/images/parts/ram/HyperX_FURY_Black_16_gb.jpg",
+      "characteristics": {
+        "Модель": "HyperX FURY Black 16 ГБ",
+        "Тип памяти": "DDR4",
+        "Форм-фактор памяти": "DIMM",
+        "Объем одного модуля памяти": "8 ГБ",
+        "Количество модулей в комплекте": "2 шт",
+        "Тактовая частота": "3200 МГц",
+        "Пропускная способность": "PC25600",
+        "Поддерживаемые режимы работы": "2800 МГц, 3200 МГц, 3000 МГц, 2666 МГц, 2400 МГц, 1600 МГц, 1866 МГц, 2133 МГц",
+        "Подсветка элементов платы": "нет",
+        "Цена": "8 199 рублей"
+      },
+      "price": 8199,
+      "group": 2,
+      "group_id": 0,
+      "validation": {},
       "image_width": "5px",
       "image_height": "157px",
       "image_top": "134px",
       "image_left": "228px",
-      "name": "ram3",
-      "image": "https://place-hold.it/512x512&text=ram3&fontsize=35",
-      "characteristics": {
-        "ram3_k1": "ram3_v1",
-        "ram3_k2": "ram3_v2",
-        "ram3_k3": "ram3_v3",
-        "ram3_k4": "ram3_v4"
-      },
-      "price": 3000,
-      "group": 2,
-      "group_id": 0,
-      "part_image": "./assets/images/parts/vector/ram.jpg",
-      "validation": {
-        "cooling": {
-          "cooling3_k1": ["cooling3_v1"]
-        }
-      }
+      "part_image": "./assets/images/parts/vector/ram.jpg"
     },
     {
       "id": 3,
+      "name": "Kingston HyperX Predator RGB 32 ГБ",
+      "image": "./assets/images/parts/ram/Kingston_HyperX_Predator_RGB_32_gb.jpg",
+      "characteristics": {
+        "Модель": "Kingston HyperX Predator RGB 32 ГБ",
+        "Тип памяти": "DDR4",
+        "Форм-фактор памяти": "DIMM",
+        "Объем одного модуля памяти": "8 ГБ",
+        "Количество модулей в комплекте": "4 шт",
+        "Тактовая частота": "3600 МГц",
+        "Пропускная способность": "PC28800",
+        "Поддерживаемые режимы работы": "3600 МГц, 3000 МГц, 2933 МГц, 3400 МГц, 3200 МГц, 2800 МГц, 2666 МГц, 2400 МГц, 2133 МГц, 2000 МГц, 1866 МГц",
+        "Подсветка элементов платы": "есть",
+        "Цена": "21 999 рублей"
+      },
+      "price": 21999,
+      "group": 2,
+      "group_id": 1,
+      "validation": {
+        "motherboard": {
+          "Количество слотов памяти": ["4"]
+        }
+      },
       "image_width": "5px",
       "image_height": "157px",
       "image_top": "134px",
       "image_left": "228px",
-      "name": "ram4",
-      "image": "https://place-hold.it/512x512&text=ram4&fontsize=35",
+      "part_image": "./assets/images/parts/vector/ram.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Kingston HyperX FURY RGB 64 ГБ",
+      "image": "./assets/images/parts/ram/Kingston_HyperX_FURY_RGB_64_gb.jpg",
       "characteristics": {
-        "ram4_k1": "ram4_v1",
-        "ram4_k2": "ram4_v2",
-        "ram4_k3": "ram4_v3",
-        "ram4_k4": "ram4_v4"
+        "Модель": "Kingston HyperX FURY RGB 64 ГБ",
+        "Тип памяти": "DDR4",
+        "Форм-фактор памяти": "DIMM",
+        "Объем одного модуля памяти": "16 ГБ",
+        "Количество модулей в комплекте": "4 шт",
+        "Тактовая частота": "3600 МГц",
+        "Пропускная способность": "PC28800",
+        "Поддерживаемые режимы работы": "3466 МГц, 3600 МГц, 3200 МГц, 2933 МГц, 3333 МГц, 3400 МГц, 3000 МГц, 2800 МГц, 1600 МГц, 1866 МГц, 2133 МГц, 2400 МГц, 2666 МГц",
+        "Подсветка элементов платы": "есть",
+        "Цена": "37 499 рублей"
       },
-      "price": 4000,
-      "group": 2,
-      "group_id": 1,
-      "part_image": "./assets/images/parts/vector/ram.jpg",
+      "price": 37499,
+      "group": 3,
+      "group_id": 0,
       "validation": {
-        "cooling": {
-          "cooling4_k1": ["cooling4_v1"]
+        "motherboard": {
+          "Количество слотов памяти": ["4"]
         }
-      }
+      },
+      "image_width": "5px",
+      "image_height": "157px",
+      "image_top": "134px",
+      "image_left": "228px",
+      "part_image": "./assets/images/parts/vector/ram.jpg"
     }
   ],
   "video_card": [
