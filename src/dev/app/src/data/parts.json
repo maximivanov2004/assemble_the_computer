@@ -1175,99 +1175,78 @@
   "hard_drive": [
     {
       "id": 0,
+      "name": "WD Blue",
+      "image": "./assets/images/parts/hard_drives/WD_Blue.jpg",
+      "characteristics": {
+        "Модель": "WD Blue",
+        "Объем HDD": "1 ТБ",
+        "Скорость вращения шпинделя": "7200 об/мин",
+        "Максимальная скорость передачи данных": "150 Мбайт/с",
+        "Интерфейс": "SATA III",
+        "Ширина": "101.6 мм",
+        "Длина": "147 мм",
+        "Толщина": "25.4 мм",
+        "Цена": "3 199 рублей"
+      },
+      "price": 3199,
+      "group": 1,
+      "group_id": 0,
+      "validation": {},
       "image_width": "110px",
       "image_height": "21px",
       "image_top": "221px",
       "image_left": "354px",
-      "name": "hard_drive1",
-      "image": "https://place-hold.it/512x512&text=hard_drive1&fontsize=35",
-      "characteristics": {
-        "hard_drive1_k1": "hard_drive1_v1",
-        "hard_drive1_k2": "hard_drive1_v2",
-        "hard_drive1_k3": "hard_drive1_v3",
-        "hard_drive1_k4": "hard_drive1_v4"
-      },
-      "price": 1000,
-      "group": 1,
-      "group_id": 0,
-      "part_image": "./assets/images/parts/vector/hard_drive.png",
-      "validation": {
-        "video_card": {
-          "video_card1_k1": ["video_card1_v1"]
-        }
-      }
+      "part_image": "./assets/images/parts/vector/hard_drive.png"
     },
     {
       "id": 1,
+      "name": "Seagate BarraCuda",
+      "image": "./assets/images/parts/hard_drives/Seagate_BarraCuda.jpg",
+      "characteristics": {
+        "Модель": "Seagate BarraCuda",
+        "Объем HDD": "2 ТБ",
+        "Скорость вращения шпинделя": "7200 об/мин",
+        "Максимальная скорость передачи данных": "220 Мбайт/с",
+        "Интерфейс": "SATA III",
+        "Ширина": "101.6 мм",
+        "Длина": "147 мм",
+        "Толщина": "20.2 мм",
+        "Цена": "4 699 рублей"
+      },
+      "price": 4699,
+      "group": 2,
+      "group_id": 0,
+      "validation": {},
       "image_width": "110px",
       "image_height": "21px",
       "image_top": "221px",
       "image_left": "354px",
-      "name": "hard_drive2",
-      "image": "https://place-hold.it/512x512&text=hard_drive2&fontsize=35",
-      "characteristics": {
-        "hard_drive2_k1": "hard_drive2_v1",
-        "hard_drive2_k2": "hard_drive2_v2",
-        "hard_drive2_k3": "hard_drive2_v3",
-        "hard_drive2_k4": "hard_drive2_v4"
-      },
-      "price": 2000,
-      "group": 1,
-      "group_id": 1,
-      "part_image": "./assets/images/parts/vector/hard_drive.png",
-      "validation": {
-        "video_card": {
-          "video_card2_k1": ["video_card2_v1"]
-        }
-      }
+      "part_image": "./assets/images/parts/vector/hard_drive.png"
     },
     {
       "id": 2,
-      "image_width": "110px",
-      "image_height": "21px",
-      "image_top": "221px",
-      "image_left": "354px",
-      "name": "hard_drive3",
-      "image": "https://place-hold.it/512x512&text=hard_drive3&fontsize=35",
+      "name": "Seagate SkyHawk AI",
+      "image": "./assets/images/parts/hard_drives/Seagate_SkyHawk_AI.jpg",
       "characteristics": {
-        "hard_drive3_k1": "hard_drive3_v1",
-        "hard_drive3_k2": "hard_drive3_v2",
-        "hard_drive3_k3": "hard_drive3_v3",
-        "hard_drive3_k4": "hard_drive3_v4"
+        "Модель": "Seagate SkyHawk AI",
+        "Объем HDD": "10 ТБ",
+        "Скорость вращения шпинделя": "7200 об/мин",
+        "Максимальная скорость передачи данных": "250 Мбайт/с",
+        "Интерфейс": "SATA III",
+        "Ширина": "101.85 мм",
+        "Длина": "147 мм",
+        "Толщина": "26.11 мм",
+        "Цена": "24 999 рублей"
       },
-      "price": 3000,
-      "group": 2,
+      "price": 24999,
+      "group": 3,
       "group_id": 0,
-      "part_image": "./assets/images/parts/vector/hard_drive.png",
-      "validation": {
-        "video_card": {
-          "video_card3_k1": ["video_card3_v1"]
-        }
-      }
-    },
-    {
-      "id": 3,
+      "validation": {},
       "image_width": "110px",
       "image_height": "21px",
       "image_top": "221px",
       "image_left": "354px",
-      "name": "hard_drive4",
-      "image": "https://place-hold.it/512x512&text=hard_drive4&fontsize=35",
-      "characteristics": {
-        "hard_drive4_k1": "hard_drive4_v1",
-        "hard_drive4_k2": "hard_drive4_v2",
-        "hard_drive4_k3": "hard_drive4_v3",
-        "hard_drive4_k4": "hard_drive4_v4"
-      },
-      "price": 4000,
-      "group": 2,
-      "group_id": 1,
-      "part_image": "./assets/images/parts/vector/hard_drive.png",
-      "validation": {
-        "video_card": {
-          "video_card4_k1": ["video_card4_v1"]
-        }
-      }
+      "part_image": "./assets/images/parts/vector/hard_drive.png"
     }
   ],
   "ssd": [
