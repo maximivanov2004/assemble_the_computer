@@ -1252,99 +1252,110 @@
   "ssd": [
     {
       "id": 0,
+      "name": "Нет",
+      "image": "./assets/images/parts/ssd/no.jpg",
+      "characteristics": {},
+      "price": 0,
+      "group": 1,
+      "group_id": 0,
+      "validation": {},
       "image_width": "105px",
       "image_height": "120px",
       "image_top": "244px",
       "image_left": "357px",
-      "name": "ssd1",
-      "image": "https://place-hold.it/512x512&text=ssd1&fontsize=35",
-      "characteristics": {
-        "ssd1_k1": "ssd1_v1",
-        "ssd1_k2": "ssd1_v2",
-        "ssd1_k3": "ssd1_v3",
-        "ssd1_k4": "ssd1_v4"
-      },
-      "price": 1000,
-      "group": 1,
-      "group_id": 0,
-      "part_image": "./assets/images/parts/vector/ssd.png",
-      "validation": {
-        "hard_drive": {
-          "hard_drive1_k1": ["hard_drive1_v1"]
-        }
-      }
+      "part_image": "./assets/images/parts/vector/ssd.png"
     },
     {
       "id": 1,
+      "name": "Samsung 970 EVO Plus 500GB",
+      "image": "./assets/images/parts/ssd/Samsung_970_EVO_Plus_500GB.jpg",
+      "characteristics": {
+        "Модель": "Samsung 970 EVO Plus 500GB",
+        "Объем накопителя": "500 ГБ",
+        "Форм-фактор": "2280",
+        "Логический интерфейс": "PCI-E 3.0 x4",
+        "Ключ M.2 разъема": "M",
+        "NVMe": "есть",
+        "Максимальная скорость последовательной записи": "3200 Мбайт/сек",
+        "Максимальная скорость последовательного чтения": "3500 Мбайт/сек",
+        "Пропускная способность интерфейса": "32 Гбит/с",
+        "Длина": "80 мм",
+        "Ширина": "22 мм",
+        "Толщина": "2.38 мм",
+        "Цена": "7 599 рублей"
+      },
+      "price": 7599,
+      "group": 2,
+      "group_id": 0,
+      "validation": {
+        "motherboard": {
+          "Количество разъемов M.2": ["1", "2", "3", "4"]
+        }
+      },
       "image_width": "105px",
       "image_height": "120px",
       "image_top": "244px",
       "image_left": "357px",
-      "name": "ssd2",
-      "image": "https://place-hold.it/512x512&text=ssd2&fontsize=35",
-      "characteristics": {
-        "ssd2_k1": "ssd2_v1",
-        "ssd2_k2": "ssd2_v2",
-        "ssd2_k3": "ssd2_v3",
-        "ssd2_k4": "ssd2_v4"
-      },
-      "price": 2000,
-      "group": 1,
-      "group_id": 1,
-      "part_image": "./assets/images/parts/vector/ssd.png",
-      "validation": {
-        "hard_drive": {
-          "hard_drive2_k1": ["hard_drive2_v1"]
-        }
-      }
+      "part_image": "./assets/images/parts/vector/ssd.png"
     },
     {
       "id": 2,
+      "name": "Samsung 860 EVO 1000GB",
+      "image": "./assets/images/parts/ssd/Samsung_860_EVO_1000GB.jpg",
+      "characteristics": {
+        "Модель": "Samsung 860 EVO 1000GB",
+        "Объем накопителя": "1000 ГБ",
+        "Физический интерфейс": "SATA III",
+        "NVMe": "нет",
+        "Максимальная скорость последовательной записи": "520 Мбайт/сек",
+        "Максимальная скорость последовательного чтения": "550 Мбайт/сек",
+        "Длина": "69.85 мм",
+        "Ширина": "100 мм",
+        "Толщина": "6.8 мм",
+        "Цена": "10 399 рублей"
+      },
+      "price": 10399,
+      "group": 2,
+      "group_id": 1,
+      "validation": {},
       "image_width": "105px",
       "image_height": "120px",
       "image_top": "244px",
       "image_left": "357px",
-      "name": "ssd3",
-      "image": "https://place-hold.it/512x512&text=ssd3&fontsize=35",
-      "characteristics": {
-        "ssd3_k1": "ssd3_v1",
-        "ssd3_k2": "ssd3_v2",
-        "ssd3_k3": "ssd3_v3",
-        "ssd3_k4": "ssd3_v4"
-      },
-      "price": 3000,
-      "group": 2,
-      "group_id": 0,
-      "part_image": "./assets/images/parts/vector/ssd.png",
-      "validation": {
-        "hard_drive": {
-          "hard_drive3_k1": ["hard_drive3_v1"]
-        }
-      }
+      "part_image": "./assets/images/parts/vector/ssd.png"
     },
     {
       "id": 3,
+      "name": "HP EX950 2048GB",
+      "image": "./assets/images/parts/ssd/HP_EX950.jpg",
+      "characteristics": {
+        "Модель": "HP EX950 2048GB",
+        "Объем накопителя": "2048 ГБ",
+        "Форм-фактор": "2280",
+        "Логический интерфейс": "PCI-E 3.0 x4",
+        "Ключ M.2 разъема": "M",
+        "NVMe": "есть",
+        "Максимальная скорость последовательной записи": "2800 Мбайт/сек",
+        "Максимальная скорость последовательного чтения": "3400 Мбайт/сек",
+        "Пропускная способность интерфейса": "32 Гбит/с",
+        "Длина": "80 мм",
+        "Ширина": "22 мм",
+        "Толщина": "3.8 мм",
+        "Цена": "22 999 рублей"
+      },
+      "price": 22999,
+      "group": 3,
+      "group_id": 0,
+      "validation": {
+        "motherboard": {
+          "Количество разъемов M.2": ["1", "2", "3", "4"]
+        }
+      },
       "image_width": "105px",
       "image_height": "120px",
       "image_top": "244px",
       "image_left": "357px",
-      "name": "ssd4",
-      "image": "https://place-hold.it/512x512&text=ssd4&fontsize=35",
-      "characteristics": {
-        "ssd4_k1": "ssd4_v1",
-        "ssd4_k2": "ssd4_v2",
-        "ssd4_k3": "ssd4_v3",
-        "ssd4_k4": "ssd4_v4"
-      },
-      "price": 4000,
-      "group": 2,
-      "group_id": 1,
-      "part_image": "./assets/images/parts/vector/ssd.png",
-      "validation": {
-        "hard_drive": {
-          "hard_drive4_k1": ["hard_drive4_v1"]
-        }
-      }
+      "part_image": "./assets/images/parts/vector/ssd.png"
     }
   ],
   "power_supply": [
