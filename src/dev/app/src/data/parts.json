@@ -1361,99 +1361,123 @@
   "power_supply": [
     {
       "id": 0,
+      "name": "Aerocool VX PLUS 450W",
+      "image": "./assets/images/parts/power_supply/Aerocool_VX_PLUS_450W.jpg",
+      "characteristics": {
+        "Модель": "Aerocool VX PLUS 450W",
+        "Форм-фактор": "ATX",
+        "Сертификат 80 PLUS": "нет",
+        "Мощность (номинал)": "450 Вт",
+        "Отстегивающиеся кабели": "нет",
+        "Система охлаждения": "активная",
+        "Тип подсветки": "нет",
+        "Цена": "1 999 рублей"
+      },
+      "price": 1999,
+      "group": 1,
+      "group_id": 0,
+      "validation": {},
       "image_width": "196px",
       "image_height": "106px",
       "image_top": "14px",
       "image_left": "16px",
-      "name": "power1",
-      "image": "https://place-hold.it/512x512&text=power1&fontsize=35",
-      "characteristics": {
-        "power1_k1": "power1_v1",
-        "power1_k2": "power1_v2",
-        "power1_k3": "power1_v3",
-        "power1_k4": "power1_v4"
-      },
-      "price": 1000,
-      "group": 1,
-      "group_id": 0,
-      "part_image": "./assets/images/parts/vector/power_supply.jpg",
-      "validation": {
-        "ssd": {
-          "ssd1_k1": ["ssd1_v1"]
-        }
-      }
+      "part_image": "./assets/images/parts/vector/power_supply.jpg"
     },
     {
       "id": 1,
+      "name": "be quiet! SYSTEM POWER 9 600W",
+      "image": "./assets/images/parts/power_supply/be_quiet_SYSTEM_POWER_9_600W.jpg",
+      "characteristics": {
+        "Модель": "be quiet! SYSTEM POWER 9 600W",
+        "Форм-фактор": "ATX",
+        "Сертификат 80 PLUS": "Bronze",
+        "Мощность (номинал)": "600 Вт",
+        "Отстегивающиеся кабели": "нет",
+        "Система охлаждения": "активная",
+        "Тип подсветки": "нет",
+        "Цена": "5 799 рублей"
+      },
+      "price": 5799,
+      "group": 2,
+      "group_id": 0,
+      "validation": {},
       "image_width": "196px",
       "image_height": "106px",
       "image_top": "14px",
       "image_left": "16px",
-      "name": "power2",
-      "image": "https://place-hold.it/512x512&text=power2&fontsize=35",
-      "characteristics": {
-        "power2_k1": "power2_v1",
-        "power2_k2": "power2_v2",
-        "power2_k3": "power2_v3",
-        "power2_k4": "power2_v4"
-      },
-      "price": 2000,
-      "group": 1,
-      "group_id": 1,
-      "part_image": "./assets/images/parts/vector/power_supply.jpg",
-      "validation": {
-        "ssd": {
-          "ssd2_k1": ["ssd2_v1"]
-        }
-      }
+      "part_image": "./assets/images/parts/vector/power_supply.jpg"
     },
     {
       "id": 2,
+      "name": "Deepcool DQ ST 750W",
+      "image": "./assets/images/parts/power_supply/Deepcool_DQ_ST_750W.jpg",
+      "characteristics": {
+        "Модель": "Deepcool DQ ST 750W",
+        "Форм-фактор": "ATX",
+        "Сертификат 80 PLUS": "Gold",
+        "Мощность (номинал)": "750 Вт",
+        "Отстегивающиеся кабели": "нет",
+        "Система охлаждения": "активная",
+        "Тип подсветки": "нет",
+        "Цена": "6 899 рублей"
+      },
+      "price": 6899,
+      "group": 2,
+      "group_id": 1,
+      "validation": {},
       "image_width": "196px",
       "image_height": "106px",
       "image_top": "14px",
       "image_left": "16px",
-      "name": "power3",
-      "image": "https://place-hold.it/512x512&text=power3&fontsize=35",
-      "characteristics": {
-        "power3_k1": "power3_v1",
-        "power3_k2": "power3_v2",
-        "power3_k3": "power3_v3",
-        "power3_k4": "power3_v4"
-      },
-      "price": 3000,
-      "group": 2,
-      "group_id": 0,
-      "part_image": "./assets/images/parts/vector/power_supply.jpg",
-      "validation": {
-        "ssd": {
-          "ssd3_k1": ["ssd3_v1"]
-        }
-      }
+      "part_image": "./assets/images/parts/vector/power_supply.jpg"
     },
     {
       "id": 3,
+      "name": "Corsair RMx 850W",
+      "image": "./assets/images/parts/power_supply/Corsair_RM_850W.jpg",
+      "characteristics": {
+        "Модель": "Corsair RMx 850W",
+        "Форм-фактор": "ATX",
+        "Сертификат 80 PLUS": "Gold",
+        "Мощность (номинал)": "850 Вт",
+        "Отстегивающиеся кабели": "полностью модульный",
+        "Система охлаждения": "полупассивная",
+        "Тип подсветки": "нет",
+        "Цена": "16 499 рублей"
+      },
+      "price": 16499,
+      "group": 3,
+      "group_id": 0,
+      "validation": {},
       "image_width": "196px",
       "image_height": "106px",
       "image_top": "14px",
       "image_left": "16px",
-      "name": "power4",
-      "image": "https://place-hold.it/512x512&text=power4&fontsize=35",
+      "part_image": "./assets/images/parts/vector/power_supply.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Xilence Performance X XN078 1250W",
+      "image": "./assets/images/parts/power_supply/Xilence_Performance_X_XN078_1250W.jpg",
       "characteristics": {
-        "power4_k1": "power4_v1",
-        "power4_k2": "power4_v2",
-        "power4_k3": "power4_v3",
-        "power4_k4": "power4_v4"
+        "Модель": "Xilence Performance X XN078 1250W",
+        "Форм-фактор": "ATX",
+        "Сертификат 80 PLUS": "Gold",
+        "Мощность (номинал)": "1250 Вт",
+        "Отстегивающиеся кабели": "полностью модульный",
+        "Система охлаждения": "активная",
+        "Тип подсветки": "нет",
+        "Цена": "16 999 рублей"
       },
-      "price": 4000,
-      "group": 2,
+      "price": 16999,
+      "group": 3,
       "group_id": 1,
-      "part_image": "./assets/images/parts/vector/power_supply.jpg",
-      "validation": {
-        "ssd": {
-          "ssd4_k1": ["ssd4_v1"]
-        }
-      }
+      "validation": {},
+      "image_width": "196px",
+      "image_height": "106px",
+      "image_top": "14px",
+      "image_left": "16px",
+      "part_image": "./assets/images/parts/vector/power_supply.jpg"
     }
   ]
 }
