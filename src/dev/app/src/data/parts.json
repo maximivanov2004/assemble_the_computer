@@ -376,99 +376,171 @@
   "case": [
     {
       "id": 0,
+      "name": "DEXP DC-101B black",
+      "characteristics": {
+        "Модель": "DEXP DC-101B black",
+        "Основной цвет": "черный",
+        "Форм-фактор совместимых плат": "Standard-ATX , Mini-ITX , Micro-ATX",
+        "Типоразмер корпуса": "Mid-Tower",
+        "Встроенный БП": "нет",
+        "Размещение блока питания": "верхнее",
+        "Форм-фактор совместимых блоков питания": "ATX",
+        "Максимальная длина устанавливаемой видеокарты": "370 мм",
+        "Максимальная высота процессорного кулера": "166 мм",
+        "Возможность установки системы жидкостного охлаждения": "есть",
+        "Блок управления вентиляторами": "нет",
+        "Наличие окна на боковой стенке": "нет",
+        "Материал окна": "нет",
+        "Подсветка": "нет",
+        "Расположение I/O панели": "спереди",
+        "Количество и тип USB": "2x USB 2.0",
+        "Аудио разъемы": "выход на наушники (jack 3.5), микрофонный вход (jack 3.5)",
+        "Длина": "413 мм",
+        "Ширина": "198 мм",
+        "Высота": "422 мм",
+        "Вес": "3.5 кг",
+        "Цена": "1 799 рублей"
+      },
+      "validation": {
+        "motherboard": {
+          "Форм-фактор": ["Standard-ATX", "Mini-ITX", "Micro-ATX"]
+        }
+      },
+      "price": 1799,
+      "group": 1,
+      "group_id": 0,
       "image_width": "500px",
       "image_height": "500px",
       "image_top": 0,
       "image_left": 0,
-      "name": "case1",
-      "image": "https://place-hold.it/512x512&text=case1&fontsize=35",
-      "characteristics": {
-        "case1_k1": "case1_v1",
-        "case1_k2": "case1_v2",
-        "case1_k3": "case1_v3",
-        "case1_k4": "case1_v4"
-      },
-      "price": 1000,
-      "group": 1,
-      "group_id": 0,
-      "part_image": "./assets/images/parts/vector/case.jpg",
-      "validation": {
-        "motherboard": {
-          "motherboard1_k1": ["motherboard1_v1"]
-        }
-      }
+      "image": "./assets/images/parts/computer_cases/dexp_dc101b_black.jpg",
+      "part_image": "./assets/images/parts/vector/case.jpg"
     },
     {
       "id": 1,
+      "name": "PowerCase Mistral X4 Mesh LED black",
+      "characteristics": {
+        "Модель": "PowerCase Mistral X4 Mesh LED black",
+        "Основной цвет": "черный",
+        "Форм-фактор совместимых плат": "Standard-ATX , Mini-ITX , Micro-ATX",
+        "Типоразмер корпуса": "Mid-Tower",
+        "Встроенный БП": "нет",
+        "Размещение блока питания": "нижнее",
+        "Форм-фактор совместимых блоков питания": "ATX",
+        "Максимальная длина устанавливаемой видеокарты": "310 мм",
+        "Максимальная высота процессорного кулера": "160 мм",
+        "Возможность установки системы жидкостного охлаждения": "есть",
+        "Блок управления вентиляторами": "нет",
+        "Наличие окна на боковой стенке": "есть",
+        "Материал окна": "закаленное стекло",
+        "Подсветка": "RGB",
+        "Расположение I/O панели": "сверху",
+        "Количество и тип USB": "2x USB 1.1, 1x USB 3.0",
+        "Аудио разъемы": "выход на наушники (jack 3.5), микрофонный вход (jack 3.5)",
+        "Длина": "400 мм",
+        "Ширина": "190 мм",
+        "Высота": "400 мм",
+        "Вес": "5.16 кг",
+        "Цена": "2 890 рублей"
+      },
+      "validation": {
+        "motherboard": {
+          "Форм-фактор": ["Standard-ATX", "Mini-ITX", "Micro-ATX"]
+        }
+      },
+      "price": 2890,
+      "group": 2,
+      "group_id": 0,
       "image_width": "500px",
       "image_height": "500px",
       "image_top": 0,
       "image_left": 0,
-      "name": "case2",
-      "image": "https://place-hold.it/512x512&text=case2&fontsize=35",
-      "characteristics": {
-        "case2_k1": "case2_v1",
-        "case2_k2": "case2_v2",
-        "case2_k3": "case2_v3",
-        "case2_k4": "case2_v4"
-      },
-      "price": 2000,
-      "group": 1,
-      "group_id": 1,
-      "part_image": "./assets/images/parts/vector/case.jpg",
-      "validation": {
-        "motherboard": {
-          "motherboard2_k1": ["motherboard2_v1"]
-        }
-      }
+      "image": "./assets/images/parts/computer_cases/powercase_mistral_x4_mesh_led_black.jpg",
+      "part_image": "./assets/images/parts/vector/case.jpg"
     },
     {
       "id": 2,
+      "name": "MSI MPG GUNGNIR 110M black",
+      "characteristics": {
+        "Модель": "MSI MPG GUNGNIR 110M black",
+        "Основной цвет": "черный",
+        "Форм-фактор совместимых плат": "Mini-ATX , Standard-ATX , Micro-ATX",
+        "Типоразмер корпуса": "Mid-Tower",
+        "Встроенный БП": "нет",
+        "Размещение блока питания": "нижнее",
+        "Форм-фактор совместимых блоков питания": "ATX",
+        "Максимальная длина устанавливаемой видеокарты": "340 мм",
+        "Максимальная высота процессорного кулера": "170 мм",
+        "Возможность установки системы жидкостного охлаждения": "есть",
+        "Блок управления вентиляторами": "нет",
+        "Наличие окна на боковой стенке": "есть",
+        "Материал окна": "закаленное стекло",
+        "Подсветка": "ARGB",
+        "Расположение I/O панели": "сверху",
+        "Количество и тип USB": "1x USB 3.2 Type-C, 2x USB 3.0",
+        "Аудио разъемы": "выход на наушники (jack 3.5), микрофонный вход (jack 3.5)",
+        "Длина": "430 мм",
+        "Ширина": "215 мм",
+        "Высота": "450 мм",
+        "Вес": "7.9 кг",
+        "Цена": "6 999 рублей"
+      },
+      "validation": {
+        "motherboard": {
+          "Форм-фактор": ["Mini-ATX", "Standard-ATX", "Micro-ATX"]
+        }
+      },
+      "price": 6999,
+      "group": 2,
+      "group_id": 1,
       "image_width": "500px",
       "image_height": "500px",
       "image_top": 0,
       "image_left": 0,
-      "name": "case3",
-      "image": "https://place-hold.it/512x512&text=case3&fontsize=35",
-      "characteristics": {
-        "case3_k1": "case3_v1",
-        "case3_k2": "case3_v2",
-        "case3_k3": "case3_v3",
-        "case3_k4": "case3_v4"
-      },
-      "price": 3000,
-      "group": 2,
-      "group_id": 0,
-      "part_image": "./assets/images/parts/vector/case.jpg",
-      "validation": {
-        "motherboard": {
-          "motherboard3_k1": ["motherboard3_v1"]
-        }
-      }
+      "image": "./assets/images/parts/computer_cases/msi_mpg_gungnir_110m_black.png",
+      "part_image": "./assets/images/parts/vector/case.jpg"
     },
     {
       "id": 3,
+      "name": "Fractal Design Define S",
+      "characteristics": {
+        "Модель": "Fractal Design Define S",
+        "Основной цвет": "черный",
+        "Форм-фактор совместимых плат": "Mini-ITX , Standard-ATX , Micro-ATX",
+        "Типоразмер корпуса": "Mid-Tower",
+        "Встроенный БП": "нет",
+        "Размещение блока питания": "нижнее",
+        "Форм-фактор совместимых блоков питания": "ATX",
+        "Максимальная длина устанавливаемой видеокарты": "450 мм",
+        "Максимальная высота процессорного кулера": "180 мм",
+        "Возможность установки системы жидкостного охлаждения": "есть",
+        "Блок управления вентиляторами": "нет",
+        "Наличие окна на боковой стенке": "нет",
+        "Материал окна": "нет",
+        "Подсветка": "нет",
+        "Расположение I/O панели": "сверху",
+        "Количество и тип USB": "2x USB 3.0",
+        "Аудио разъемы": "выход на наушники (jack 3.5), микрофонный вход (jack 3.5)",
+        "Длина": "533 мм",
+        "Ширина": "233 мм",
+        "Высота": "465 мм",
+        "Вес": "9.1 кг",
+        "Цена": "8 420 рублей"
+      },
+      "validation": {
+        "motherboard": {
+          "Форм-фактор": ["Mini-ITX", "Standard-ATX", "Micro-ATX"]
+        }
+      },
+      "price": 8420,
+      "group": 3,
+      "group_id": 0,
       "image_width": "500px",
       "image_height": "500px",
       "image_top": 0,
       "image_left": 0,
-      "name": "case4",
-      "image": "https://place-hold.it/512x512&text=case4&fontsize=35",
-      "characteristics": {
-        "case4_k1": "case4_v1",
-        "case4_k2": "case4_v2",
-        "case4_k3": "case4_v3",
-        "case4_k4": "case4_v4"
-      },
-      "price": 4000,
-      "group": 2,
-      "group_id": 1,
-      "part_image": "./assets/images/parts/vector/case.jpg",
-      "validation": {
-        "motherboard": {
-          "motherboard4_k1": ["motherboard4_v1"]
-        }
-      }
+      "image": "./assets/images/parts/computer_cases/fractal_design_define_s.jpg",
+      "part_image": "./assets/images/parts/vector/case.jpg"
     }
   ],
   "cooling": [
