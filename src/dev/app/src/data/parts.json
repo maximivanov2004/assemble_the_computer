@@ -1014,99 +1014,162 @@
   "video_card": [
     {
       "id": 0,
+      "name": "Встроенная видеокарта",
+      "image": "./assets/images/parts/video_cards/built_in_gpu.jpg",
+      "characteristics": {},
+      "price": 0,
+      "group": 1,
+      "group_id": 0,
+      "validation": {
+        "processor": {
+          "Интегрированное графическое ядро": ["есть"]
+        }
+      },
       "image_width": "220px",
       "image_height": "35px",
       "image_top": "296px",
       "image_left": "5px",
-      "name": "video_card1",
-      "image": "https://place-hold.it/512x512&text=video_card1&fontsize=35",
-      "characteristics": {
-        "video_card1_k1": "video_card1_v1",
-        "video_card1_k2": "video_card1_v2",
-        "video_card1_k3": "video_card1_v3",
-        "video_card1_k4": "video_card1_v4"
-      },
-      "price": 1000,
-      "group": 1,
-      "group_id": 0,
-      "part_image": "./assets/images/parts/vector/video_card.png",
-      "validation": {
-        "ram": {
-          "ram1_k1": ["ram1_v1"]
-        }
-      }
+      "part_image": "./assets/images/parts/vector/video_card.png"
     },
     {
       "id": 1,
+      "name": "MSI GeForce RTX 2060 GAMING Z 6G",
+      "image": "./assets/images/parts/video_cards/MSI_GeForce_RTX_2060_GAMING_Z_6G.jpg",
+      "characteristics": {
+        "Модель": "MSI GeForce RTX 2060 GAMING Z 6G",
+        "Объем видеопамяти": "6 ГБ",
+        "Тип памяти": "GDDR6",
+        "Разрядность шины памяти": "192 бит",
+        "Штатная частота работы видеочипа": "1830 МГц",
+        "Поддержка трассировки лучей": "есть",
+        "Видео разъемы": "поддержка HDCP, HDMI, DisplayPort x3",
+        "Версия HDMI": "2.0b",
+        "Максимальное разрешение": "7680x4320",
+        "Количество подключаемых одновременно мониторов": "4",
+        "Интерфейс подключения": "PCI-E",
+        "Версия PCI Express": "3.0",
+        "Необходимость дополнительного питания": "есть",
+        "Разъемы дополнительного питания": "8-pin",
+        "Рекомендуемый блок питания": "500 Вт",
+        "Длина видеокарты": "247 мм",
+        "Толщина видеокарты": "52 мм",
+        "Подсветка элементов видеокарты": "есть",
+        "Цена": "39 999 рублей"
+      },
+      "price": 39999,
+      "group": 2,
+      "group_id": 0,
+      "validation": {},
       "image_width": "220px",
       "image_height": "35px",
       "image_top": "296px",
       "image_left": "5px",
-      "name": "video_card2",
-      "image": "https://place-hold.it/512x512&text=video_card2&fontsize=35",
-      "characteristics": {
-        "video_card2_k1": "video_card2_v1",
-        "video_card2_k2": "video_card2_v2",
-        "video_card2_k3": "video_card2_v3",
-        "video_card2_k4": "video_card2_v4"
-      },
-      "price": 2000,
-      "group": 1,
-      "group_id": 1,
-      "part_image": "./assets/images/parts/vector/video_card.png",
-      "validation": {
-        "ram": {
-          "ram2_k1": ["ram2_v1"]
-        }
-      }
+      "part_image": "./assets/images/parts/vector/video_card.png"
     },
     {
       "id": 2,
+      "name": "GIGABYTE AORUS GeForce RTX 3070 MASTER",
+      "image": "./assets/images/parts/video_cards/GIGABYTE_AORUS_GeForce_RTX_3070_MASTER.png",
+      "characteristics": {
+        "Модель": "GIGABYTE AORUS GeForce RTX 3070 MASTER",
+        "Объем видеопамяти": "8 ГБ",
+        "Тип памяти": "GDDR6",
+        "Разрядность шины памяти": "256 бит",
+        "Штатная частота работы видеочипа": "1500 МГц",
+        "Поддержка трассировки лучей": "есть",
+        "Видео разъемы": "HDMI (3 шт), DisplayPort (3 шт)",
+        "Версия HDMI": "2.1",
+        "Максимальное разрешение": "8K UHD (Ultra HD), 7680x4320",
+        "Количество подключаемых одновременно мониторов": "4",
+        "Интерфейс подключения": "PCI-E",
+        "Версия PCI Express": "4.0",
+        "Необходимость дополнительного питания": "есть",
+        "Разъемы дополнительного питания": "8-pin x2",
+        "Рекомендуемый блок питания": "650 Вт",
+        "Длина видеокарты": "290 мм",
+        "Толщина видеокарты": "60 мм",
+        "Подсветка элементов видеокарты": "есть",
+        "Цена": "59 999 рублей"
+      },
+      "price": 59999,
+      "group": 2,
+      "group_id": 0,
+      "validation": {},
       "image_width": "220px",
       "image_height": "35px",
       "image_top": "296px",
       "image_left": "5px",
-      "name": "video_card3",
-      "image": "https://place-hold.it/512x512&text=video_card3&fontsize=35",
-      "characteristics": {
-        "video_card3_k1": "video_card3_v1",
-        "video_card3_k2": "video_card3_v2",
-        "video_card3_k3": "video_card3_v3",
-        "video_card3_k4": "video_card3_v4"
-      },
-      "price": 3000,
-      "group": 2,
-      "group_id": 0,
-      "part_image": "./assets/images/parts/vector/video_card.png",
-      "validation": {
-        "ram": {
-          "ram3_k1": ["ram3_v1"]
-        }
-      }
+      "part_image": "./assets/images/parts/vector/video_card.png"
     },
     {
       "id": 3,
+      "name": "PowerColor AMD Radeon RX 6900 XT Red Devil",
+      "image": "./assets/images/parts/video_cards/PowerColor_AMD_Radeon_RX_6900_XT_Red_Devil.jpg",
+      "characteristics": {
+        "Модель": "PowerColor AMD Radeon RX 6900 XT Red Devil",
+        "Объем видеопамяти": "16 ГБ",
+        "Тип памяти": "GDDR6",
+        "Разрядность шины памяти": "256 бит",
+        "Штатная частота работы видеочипа": "1825 МГц",
+        "Поддержка трассировки лучей": "есть",
+        "Видео разъемы": "HDMI, DisplayPort (3 шт)",
+        "Версия HDMI": "2.1",
+        "Максимальное разрешение": "8K UHD (Ultra HD), 7680x4320",
+        "Количество подключаемых одновременно мониторов": "4",
+        "Интерфейс подключения": "PCI-E",
+        "Версия PCI Express": "4.0",
+        "Необходимость дополнительного питания": "есть",
+        "Разъемы дополнительного питания": "8-pin x3",
+        "Рекомендуемый блок питания": "900 Вт",
+        "Длина видеокарты": "320 мм",
+        "Толщина видеокарты": "62 мм",
+        "Подсветка элементов видеокарты": "есть",
+        "Цена": "89 999 рублей"
+      },
+      "price": 89999,
+      "group": 3,
+      "group_id": 0,
+      "validation": {},
       "image_width": "220px",
       "image_height": "35px",
       "image_top": "296px",
       "image_left": "5px",
-      "name": "video_card4",
-      "image": "https://place-hold.it/512x512&text=video_card4&fontsize=35",
+      "part_image": "./assets/images/parts/vector/video_card.png"
+    },
+    {
+      "id": 4,
+      "name": "GeForce RTX 3090 TURBO 24G",
+      "image": "./assets/images/parts/video_cards/GeForce_RTX_3090_TURBO_24G.jpg",
       "characteristics": {
-        "video_card4_k1": "video_card4_v1",
-        "video_card4_k2": "video_card4_v2",
-        "video_card4_k3": "video_card4_v3",
-        "video_card4_k4": "video_card4_v4"
+        "Модель": "GeForce RTX 3090 TURBO 24G",
+        "Объем видеопамяти": "24 ГБ",
+        "Тип памяти": "GDDR6X",
+        "Разрядность шины памяти": "384 бит",
+        "Штатная частота работы видеочипа": "1695 МГц",
+        "Поддержка трассировки лучей": "есть",
+        "Видео разъемы": "поддержка HDCP, HDMI x2, DisplayPort x2",
+        "Версия HDMI": "2.1",
+        "Максимальное разрешение": "7680x4320",
+        "Количество подключаемых одновременно мониторов": "4",
+        "Интерфейс подключения": "PCI-E",
+        "Версия PCI Express": "4.0",
+        "Необходимость дополнительного питания": "есть",
+        "Разъемы дополнительного питания": "8-pin x2",
+        "Рекомендуемый блок питания": "750 Вт",
+        "Длина видеокарты": "267 мм",
+        "Толщина видеокарты": "40 мм",
+        "Подсветка элементов видеокарты": "нет",
+        "Цена": "79 999 рублей"
       },
-      "price": 4000,
-      "group": 2,
-      "group_id": 1,
-      "part_image": "./assets/images/parts/vector/video_card.png",
-      "validation": {
-        "ram": {
-          "ram4_k1": ["ram4_v1"]
-        }
-      }
+      "price": 79999,
+      "group": 3,
+      "group_id": 0,
+      "validation": {},
+      "image_width": "220px",
+      "image_height": "35px",
+      "image_top": "296px",
+      "image_left": "5px",
+      "part_image": "./assets/images/parts/vector/video_card.png"
     }
   ],
   "hard_drive": [
