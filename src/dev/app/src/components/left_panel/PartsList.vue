@@ -9,7 +9,11 @@
       :key="part.id"
       @click="selectPart(part.id)"
     >
-      <img class="part-item__image" :src="part.image" alt="part image" />
+      <div
+        class="img"
+        :style="{ backgroundImage: `url('${part.image}')` }"
+      ></div>
+      <!-- <img class="part-item__image" :src="part.image" alt="part image" /> -->
       <span class="part-item__name">{{ part.name }}</span>
     </div>
   </div>
@@ -56,6 +60,7 @@ export default {
 }
 
 .parts-list__part-item {
+  padding: 12px 30px 50px 30px;
   margin: 10px 20px 0 20px;
   width: 240px;
   height: 240px;
@@ -69,11 +74,19 @@ export default {
   background: var(--gray);
 }
 
-.part-item__image {
+.img {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* .part-item__image {
   margin: 15px 0;
   height: 70%;
   display: block;
-}
+} */
 
 .part-item__name {
   padding: 5px 0;
