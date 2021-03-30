@@ -2,25 +2,25 @@
   {
     "id": 0,
     "title": "Сборка офисного компьютера",
-    "description": "description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 description1 ",
+    "description": "В этом задании вам предстоит собрать простой офисный компьютер, основными задачами которого являются использование интернета и работа с документами. Совет: офисный компьютер не нуждается в мощной видеокарте.",
     "parts_group": 1
   },
   {
     "id": 1,
     "title": "Сборка игрового компьютера",
-    "description": "description2",
+    "description": "В этом задании вам предстоит собрать компьютер, способный запускать современные игры на высоких настройках. Для этого ему требуется мощная видеокарта и как минимум 16 гб оперативной памяти.",
     "parts_group": 2
   },
   {
     "id": 2,
     "title": "Сборка рабочей станции",
-    "description": "description3",
+    "description": "В этом задании вам предстоит собрать рабочую станцию. Это компьютер, предназначенный для 3д моделирования, сложных симуляций или обработки высококачественного видео. Для этих задач ему нужен очень мощный процессор и большое количество оперативной памяти. Плюсом будет быстрый ssd.",
     "parts_group": 3
   },
   {
     "id": 3,
     "title": "Сборка произвольного компьютера",
-    "description": "description4",
+    "description": "В этом задании нет каких-либо ограничений. Собери компьютер на свой вкус!",
     "parts_group": 0
   }
 ]
