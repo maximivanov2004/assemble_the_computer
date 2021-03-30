@@ -5,7 +5,14 @@
       v-for="(charValue, charName) in part.characteristics"
       :key="charName"
     >
-      <span>{{ charName }}: </span><span>{{ charValue }}</span>
+      <span>{{ charName }}: </span>
+      <span
+        class="char-info"
+        v-if="part.charDescriptions[charName]"
+        @click="showCharInfo(part.charDescriptions[charName])"
+        >?</span
+      >
+      <span>{{ charValue }}</span>
     </div>
   </div>
 </template>
@@ -23,10 +30,21 @@ export default {
       );
     },
   },
+  methods: {
+    showCharInfo(charInfo) {
+      alert(charInfo);
+    },
+  },
 };
 </script>
 
 <style scoped>
+.char-info {
+  color: var(--dark-green);
+  border: 2px solid var(--light-green);
+  border-radius: 100px;
+}
+
 .part-info {
   overflow: auto;
   height: 420px;

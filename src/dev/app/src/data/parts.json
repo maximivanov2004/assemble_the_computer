@@ -2,6 +2,12 @@
   "processor": [
     {
       "id": 0,
+      "charDescriptions": {
+        "Модель": "Главный конструктивный элемент процессора, непосредственно обеспечивающий выполнение вычислительных операций. Структура ядра зависит от архитектуры процессора. Один из способов увеличения уровня производительности процессора – увеличение количества ядер. Серверные процессоры могут иметь несколько десятков ядер. В подавляющем большинстве случаев в процессорах используется четное количество ядер.",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "AMD Athlon 3000G",
       "image": "./assets/images/parts/processors/amd_athlon_3000g.jpg",
       "characteristics": {
@@ -29,6 +35,12 @@
     },
     {
       "id": 1,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "Intel Pentium G4400",
       "image": "./assets/images/parts/processors/intel_pentium_g4400.jpg",
       "characteristics": {
@@ -56,6 +68,12 @@
     },
     {
       "id": 2,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "AMD Ryzen 5 3500X",
       "image": "./assets/images/parts/processors/amd_ryzen5_3500x.jpg",
       "characteristics": {
@@ -83,6 +101,12 @@
     },
     {
       "id": 3,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "Intel Core i7-9700KF",
       "image": "./assets/images/parts/processors/intel_corei7_9700KF.jpg",
       "characteristics": {
@@ -110,6 +134,12 @@
     },
     {
       "id": 4,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "AMD Ryzen 9 5950X",
       "image": "./assets/images/parts/processors/amd_ryzen9_5950X.jpg",
       "characteristics": {
@@ -139,6 +169,12 @@
   "motherboard": [
     {
       "id": 0,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "ASRock B450M-HDV R4.0",
       "image": "./assets/images/parts/motherboards/asrock_b450m_hdv.jpg",
       "characteristics": {
@@ -186,6 +222,12 @@
     },
     {
       "id": 1,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "ASRock H110M-DGS R3.0",
       "image": "./assets/images/parts/motherboards/asrock_h110m_dgs.jpg",
       "characteristics": {
@@ -233,6 +275,12 @@
     },
     {
       "id": 2,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "MSI B450 GAMING PLUS MAX",
       "image": "./assets/images/parts/motherboards/msi_b450_gaming_plus_max.jpg",
       "characteristics": {
@@ -280,6 +328,12 @@
     },
     {
       "id": 3,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "ASUS ROG STRIX Z390-F GAMING",
       "image": "./assets/images/parts/motherboards/asus_rog_strix_z390f_gaming.jpg",
       "characteristics": {
@@ -327,6 +381,12 @@
     },
     {
       "id": 4,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "MSI MAG X570 TOMAHAWK WIFI",
       "image": "./assets/images/parts/motherboards/msi_mag_x570_tomahawk.jpg",
       "characteristics": {
@@ -376,6 +436,12 @@
   "case": [
     {
       "id": 0,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "DEXP DC-101B black",
       "characteristics": {
         "Модель": "DEXP DC-101B black",
@@ -418,6 +484,12 @@
     },
     {
       "id": 1,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "PowerCase Mistral X4 Mesh LED black",
       "characteristics": {
         "Модель": "PowerCase Mistral X4 Mesh LED black",
@@ -460,6 +532,12 @@
     },
     {
       "id": 2,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "MSI MPG GUNGNIR 110M black",
       "characteristics": {
         "Модель": "MSI MPG GUNGNIR 110M black",
@@ -502,6 +580,12 @@
     },
     {
       "id": 3,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "Fractal Design Define S",
       "characteristics": {
         "Модель": "Fractal Design Define S",
@@ -546,6 +630,12 @@
   "cooling": [
     {
       "id": 0,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "CoolerMaster A30",
       "characteristics": {
         "Модель": "CoolerMaster A30",
@@ -587,6 +677,12 @@
     },
     {
       "id": 1,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "Cooler Master I30",
       "characteristics": {
         "Модель": "Cooler Master I30",
@@ -635,6 +731,12 @@
     },
     {
       "id": 2,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "DEEPCOOL GAMMAXX 300",
       "characteristics": {
         "Модель": "DEEPCOOL GAMMAXX 300",
@@ -693,6 +795,12 @@
     },
     {
       "id": 3,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "Zalman CNPS10X Performa",
       "characteristics": {
         "Модель": "Zalman CNPS10X Performa",
@@ -751,6 +859,12 @@
     },
     {
       "id": 4,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "be quiet! DARK ROCK PRO 4",
       "characteristics": {
         "Модель": "be quiet! DARK ROCK PRO 4",
@@ -811,6 +925,12 @@
     },
     {
       "id": 5,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "Corsair iCUE H150i RGB PRO XT",
       "characteristics": {
         "Модель": "Corsair iCUE H150i RGB PRO XT",
@@ -874,6 +994,12 @@
   "ram": [
     {
       "id": 0,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "Crucial 8 ГБ",
       "image": "./assets/images/parts/ram/Crucial_8gb.jpg",
       "characteristics": {
@@ -900,6 +1026,12 @@
     },
     {
       "id": 1,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "Patriot Signature Line 8 ГБ",
       "image": "./assets/images/parts/ram/Patriot_Signature_Line_8gb.jpg",
       "characteristics": {
@@ -926,6 +1058,12 @@
     },
     {
       "id": 2,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "HyperX FURY Black 16 ГБ",
       "image": "./assets/images/parts/ram/HyperX_FURY_Black_16_gb.jpg",
       "characteristics": {
@@ -952,6 +1090,12 @@
     },
     {
       "id": 3,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "Kingston HyperX Predator RGB 32 ГБ",
       "image": "./assets/images/parts/ram/Kingston_HyperX_Predator_RGB_32_gb.jpg",
       "characteristics": {
@@ -982,6 +1126,12 @@
     },
     {
       "id": 4,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "Kingston HyperX FURY RGB 64 ГБ",
       "image": "./assets/images/parts/ram/Kingston_HyperX_FURY_RGB_64_gb.jpg",
       "characteristics": {
@@ -1014,6 +1164,12 @@
   "video_card": [
     {
       "id": 0,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "Встроенная видеокарта",
       "image": "./assets/images/parts/video_cards/built_in_gpu.jpg",
       "characteristics": {},
@@ -1033,6 +1189,12 @@
     },
     {
       "id": 1,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "MSI GeForce RTX 2060 GAMING Z 6G",
       "image": "./assets/images/parts/video_cards/MSI_GeForce_RTX_2060_GAMING_Z_6G.jpg",
       "characteristics": {
@@ -1068,6 +1230,12 @@
     },
     {
       "id": 2,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "GIGABYTE AORUS GeForce RTX 3070 MASTER",
       "image": "./assets/images/parts/video_cards/GIGABYTE_AORUS_GeForce_RTX_3070_MASTER.png",
       "characteristics": {
@@ -1103,6 +1271,12 @@
     },
     {
       "id": 3,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "PowerColor AMD Radeon RX 6900 XT Red Devil",
       "image": "./assets/images/parts/video_cards/PowerColor_AMD_Radeon_RX_6900_XT_Red_Devil.jpg",
       "characteristics": {
@@ -1138,6 +1312,12 @@
     },
     {
       "id": 4,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "GeForce RTX 3090 TURBO 24G",
       "image": "./assets/images/parts/video_cards/GeForce_RTX_3090_TURBO_24G.jpg",
       "characteristics": {
@@ -1175,6 +1355,12 @@
   "hard_drive": [
     {
       "id": 0,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "WD Blue",
       "image": "./assets/images/parts/hard_drives/WD_Blue.jpg",
       "characteristics": {
@@ -1200,6 +1386,12 @@
     },
     {
       "id": 1,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "Seagate BarraCuda",
       "image": "./assets/images/parts/hard_drives/Seagate_BarraCuda.jpg",
       "characteristics": {
@@ -1225,6 +1417,12 @@
     },
     {
       "id": 2,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "Seagate SkyHawk AI",
       "image": "./assets/images/parts/hard_drives/Seagate_SkyHawk_AI.jpg",
       "characteristics": {
@@ -1252,6 +1450,12 @@
   "ssd": [
     {
       "id": 0,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "Нет",
       "image": "./assets/images/parts/ssd/no.jpg",
       "characteristics": {},
@@ -1267,6 +1471,12 @@
     },
     {
       "id": 1,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "Samsung 970 EVO Plus 500GB",
       "image": "./assets/images/parts/ssd/Samsung_970_EVO_Plus_500GB.jpg",
       "characteristics": {
@@ -1300,6 +1510,12 @@
     },
     {
       "id": 2,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "Samsung 860 EVO 1000GB",
       "image": "./assets/images/parts/ssd/Samsung_860_EVO_1000GB.jpg",
       "characteristics": {
@@ -1326,6 +1542,12 @@
     },
     {
       "id": 3,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "HP EX950 2048GB",
       "image": "./assets/images/parts/ssd/HP_EX950.jpg",
       "characteristics": {
@@ -1361,6 +1583,12 @@
   "power_supply": [
     {
       "id": 0,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "Aerocool VX PLUS 450W",
       "image": "./assets/images/parts/power_supply/Aerocool_VX_PLUS_450W.jpg",
       "characteristics": {
@@ -1385,6 +1613,12 @@
     },
     {
       "id": 1,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "be quiet! SYSTEM POWER 9 600W",
       "image": "./assets/images/parts/power_supply/be_quiet_SYSTEM_POWER_9_600W.jpg",
       "characteristics": {
@@ -1409,6 +1643,12 @@
     },
     {
       "id": 2,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "Deepcool DQ ST 750W",
       "image": "./assets/images/parts/power_supply/Deepcool_DQ_ST_750W.jpg",
       "characteristics": {
@@ -1433,6 +1673,12 @@
     },
     {
       "id": 3,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "Corsair RMx 850W",
       "image": "./assets/images/parts/power_supply/Corsair_RM_850W.jpg",
       "characteristics": {
@@ -1457,6 +1703,12 @@
     },
     {
       "id": 4,
+      "charDescriptions": {
+        "Модель": "description_1",
+        "charKey_2": "description_2",
+        "charKey_3": "description_3",
+        "charKey_4": "description_4"
+      },
       "name": "Xilence Performance X XN078 1250W",
       "image": "./assets/images/parts/power_supply/Xilence_Performance_X_XN078_1250W.jpg",
       "characteristics": {
