@@ -106,7 +106,9 @@ export default {
         if (
           !isPartValid(step.part_name, this.build[step.part_name], this.build)
         ) {
-          alert("part is not valid!");
+          alert(
+            "Ошибка совместимости! Проверьте характеристики детали и выберите другую из списка."
+          );
           return;
         }
       }
