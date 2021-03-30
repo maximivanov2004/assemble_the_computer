@@ -120,6 +120,21 @@ export default {
         this.partInstalled = false;
       }
 
+      if (
+        (this.build.video_card === 0 &&
+          this.steps.find((step) => step.id === this.activeStep).part_name ===
+            "video_card") ||
+        (this.build.ssd === 0 &&
+          this.steps.find((step) => step.id === this.activeStep).part_name ===
+            "ssd")
+      ) {
+        this.activeStep = 0;
+        this.currentStep = 0;
+        this.partInstalled = true;
+        this.$emit("nextStage");
+        return;
+      }
+
       if (this.activeStage === 10) {
         this.activeStep = 0;
         this.currentStep = 0;
