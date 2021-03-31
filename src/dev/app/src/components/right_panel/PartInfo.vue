@@ -43,6 +43,7 @@ export default {
   color: var(--dark-green);
   border: 2px solid var(--light-green);
   border-radius: 100px;
+  margin-bottom: auto;
 }
 
 .part-info {
