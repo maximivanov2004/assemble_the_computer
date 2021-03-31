@@ -54,10 +54,10 @@ export default {
 
       if (task.parts_group === 0) return 1;
 
-      if (part.group !== task.parts_group) {
-        return 0;
-      } else {
+      if (part.group.includes(task.parts_group)) {
         return 1;
+      } else {
+        return 0;
       }
     },
   },
@@ -69,12 +69,14 @@ export default {
       const task = tasks.find((task) => task.id === this.activeTask);
       const part = parts[partName].find((part) => part.id === partId);
 
+      console.log(task.parts_group, part.group);
+
       if (task.parts_group === 0) return 1;
 
-      if (part.group !== task.parts_group) {
-        return 0;
-      } else {
+      if (part.group.includes(task.parts_group)) {
         return 1;
+      } else {
+        return 0;
       }
     });
 
