@@ -1518,7 +1518,7 @@
         "Цена": "4 699 рублей"
       },
       "price": 4699,
-      "group": [2],
+      "group": [1, 2],
       "group_id": 0,
       "validation": {},
       "image_width": "110px",
@@ -1606,7 +1606,7 @@
         "Цена": "7 599 рублей"
       },
       "price": 7599,
-      "group": [2],
+      "group": [1, 2],
       "group_id": 0,
       "validation": {
         "motherboard": {
@@ -1646,7 +1646,7 @@
         "Цена": "10 399 рублей"
       },
       "price": 10399,
-      "group": [2],
+      "group": [1, 2],
       "group_id": 1,
       "validation": {},
       "image_width": "105px",
